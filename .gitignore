@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+wandb/
+*.pt
+*.bin
+*.safetensors
+data/raw/
+wandbapi.txt
