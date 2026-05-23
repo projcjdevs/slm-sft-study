@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1371,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The team agreed that Anya should design the search results page. The ux research report needs to be done before this can begin. Target completion is a time to be determined. This is a key deliverable for the quarter.",
+    "output": {
+      "task_name": "design the search results page",
+      "priority": "high",
+      "assignee": "Anya",
+      "deadline": "not specified",
+      "dependencies": "the UX research report"
+    }
+  },
+  {
+    "id": 571,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, Wes Patel will create user journey maps for the core flows, due by the end of the month. This task is contingent on the user research findings. This is a regular task.",
+    "output": {
+      "task_name": "create user journey maps for the core flows",
+      "priority": "medium",
+      "assignee": "Wes Patel",
+      "deadline": "by the end of the month",
+      "dependencies": "the user research findings"
+    }
+  },
+  {
+    "id": 488,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "During the sprint planning session, the team discussed the need to set up the new employee onboarding automation. After some deliberation, Max was assigned to lead this effort. The target completion date is September 15. This can wait. The stakeholders will review the deliverable once it is ready.",
+    "output": {
+      "task_name": "set up the new employee onboarding automation",
+      "priority": "low",
+      "assignee": "Max",
+      "deadline": "September 15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1053,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We need Pam to design the permissions management interface, due 10/31. This has been escalated to critical.",
+    "output": {
+      "task_name": "design the permissions management interface",
+      "priority": "urgent",
+      "assignee": "Pam",
+      "deadline": "10/31",
+      "dependencies": "the user research findings"
+    }
+  },
+  {
+    "id": 1713,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Based on customer feedback, we need to set up the new ticketing system for internal support to improve the user experience. Frank Parker will handle this work. The product team has requested that this be completed 2026-03-10. We need this soon. Please coordinate with the product manager on acceptance criteria.",
+    "output": {
+      "task_name": "set up the new ticketing system for internal support",
+      "priority": "high",
+      "assignee": "Frank Parker",
+      "deadline": "2026-03-10",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 677,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The technical debt review surfaced the need to build automated rollback for failed deployments. Felix has agreed to take this on as a focused effort. This is dependent on the message queue setup. Ideally, this should be wrapped up May 20. This is critical and must be done ASAP. This will improve our velocity in subsequent sprints.",
+    "output": {
+      "task_name": "build automated rollback for failed deployments",
+      "priority": "urgent",
+      "assignee": "Felix",
+      "deadline": "May 20",
+      "dependencies": "the message queue setup"
+    }
+  },
+  {
+    "id": 65,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Zoe needs to set up the marketing attribution model. This is important and needs to be done soon.",
+    "output": {
+      "task_name": "set up the marketing attribution model",
+      "priority": "high",
+      "assignee": "Zoe",
+      "deadline": "not specified",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 139,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Please have Reed train the customer churn prediction model (deadline: before the demo). This is a stretch goal.",
+    "output": {
+      "task_name": "train the customer churn prediction model",
+      "priority": "low",
+      "assignee": "Reed",
+      "deadline": "before the demo",
+      "dependencies": "the ETL job migration"
+    }
+  },
+  {
+    "id": 469,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Elena Morris: build the interactive demo for the conference \u2014 target: this week. This is critical and must be done ASAP.",
+    "output": {
+      "task_name": "build the interactive demo for the conference",
+      "priority": "urgent",
+      "assignee": "Elena Morris",
+      "deadline": "this week",
+      "dependencies": "the benchmark suite preparation"
+    }
+  },
+  {
+    "id": 121,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Clara has volunteered to design the multi-step form pattern for the admin panel. The target is 2026-07-01.",
+    "output": {
+      "task_name": "design the multi-step form pattern for the admin panel",
+      "priority": "medium",
+      "assignee": "Clara",
+      "deadline": "2026-07-01",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1293,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to run the ablation study on the attention mechanism. Nate will own this, with a deadline of before the all-hands. Once the lab environment setup is complete, this can move forward. We need this soon.",
+    "output": {
+      "task_name": "run the ablation study on the attention mechanism",
+      "priority": "high",
+      "assignee": "Nate",
+      "deadline": "before the all-hands",
+      "dependencies": "the lab environment setup"
+    }
+  },
+  {
+    "id": 1450,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "There has been growing demand from the team to design the settings page for the dashboard. After discussing options, we have decided to assign this to the mobile team. This is dependent on the design system migration. The deadline is sometime this quarter. Please reach out to the mobile team if you have any relevant context to share.",
+    "output": {
+      "task_name": "design the settings page for the dashboard",
+      "priority": "medium",
+      "assignee": "the mobile team",
+      "deadline": "sometime this quarter",
+      "dependencies": "the design system migration"
+    }
+  },
+  {
+    "id": 146,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Emily White needs to conduct the expert interviews for the qualitative study, with a deadline of when ready. Once the lab environment setup is complete, this can move forward. Low priority \u2014 handle whenever you have bandwidth.",
+    "output": {
+      "task_name": "conduct the expert interviews for the qualitative study",
+      "priority": "low",
+      "assignee": "Emily White",
+      "deadline": "when ready",
+      "dependencies": "the lab environment setup"
+    }
+  },
+  {
+    "id": 15,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, the growth team will write the experimental results section, with a deadline of 07/15. Note that this depends on the experiment design review being completed first. Please prioritize this.",
+    "output": {
+      "task_name": "write the experimental results section",
+      "priority": "high",
+      "assignee": "the growth team",
+      "deadline": "07/15",
+      "dependencies": "the experiment design review"
+    }
+  },
+  {
+    "id": 1968,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Per the retro action items, Bob Cook will set up the new VPN for the remote team, with a deadline of by tomorrow. Whenever you get a chance.",
+    "output": {
+      "task_name": "set up the new VPN for the remote team",
+      "priority": "low",
+      "assignee": "Bob Cook",
+      "deadline": "by tomorrow",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1206,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Create the feature engineering pipeline for fraud detection has been added to the backlog. Tom is the owner, with a deadline of June 30. This can't start until the data governance review is finished. We need this resolved immediately.",
+    "output": {
+      "task_name": "create the feature engineering pipeline for fraud detection",
+      "priority": "urgent",
+      "assignee": "Tom",
+      "deadline": "June 30",
+      "dependencies": "the data governance review"
+    }
+  },
+  {
+    "id": 472,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to set up canary deployments for the frontend. Xena will own this by at your earliest convenience. We're waiting on the OAuth integration before this can proceed. Drop everything and handle this.",
+    "output": {
+      "task_name": "set up canary deployments for the frontend",
+      "priority": "urgent",
+      "assignee": "Xena",
+      "deadline": "at your earliest convenience",
+      "dependencies": "the OAuth integration"
+    }
+  },
+  {
+    "id": 1135,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Please have Lina Hughes design the file upload experience \u2014 target: April 30. This is a P0 issue.",
+    "output": {
+      "task_name": "design the file upload experience",
+      "priority": "urgent",
+      "assignee": "Lina Hughes",
+      "deadline": "April 30",
+      "dependencies": "the brand guidelines update"
+    }
+  },
+  {
+    "id": 1205,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Yara Henderson needs to create the loading and skeleton state patterns \u2014 target: September 30. Low priority, not time-sensitive.",
+    "output": {
+      "task_name": "create the loading and skeleton state patterns",
+      "priority": "low",
+      "assignee": "Yara Henderson",
+      "deadline": "September 30",
+      "dependencies": "the accessibility audit"
+    }
+  },
+  {
+    "id": 44,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "As part of our quarterly objectives, we need to build automated rollback for failed deployments. the security team will be the DRI for this initiative. This can't start until the feature flag system is finished. Low priority, not time-sensitive. We are targeting by the end of Q2 for completion. Updates should be shared in the weekly sync.",
+    "output": {
+      "task_name": "build automated rollback for failed deployments",
+      "priority": "low",
+      "assignee": "the security team",
+      "deadline": "by the end of Q2",
+      "dependencies": "the feature flag system"
+    }
+  },
+  {
+    "id": 693,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "There has been growing demand from the team to analyze the conversion funnel for the signup flow. After discussing options, we have decided to assign this to Isla Jenkins. Note that this depends on the content calendar approval being completed first. The deadline is 01/15. Standard priority. Please reach out to Isla Jenkins if you have any relevant context to share.",
+    "output": {
+      "task_name": "analyze the conversion funnel for the signup flow",
+      "priority": "medium",
+      "assignee": "Isla Jenkins",
+      "deadline": "01/15",
+      "dependencies": "the content calendar approval"
+    }
+  },
+  {
+    "id": 132,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to set up the feature store for real-time features. the API team will own this. Once the GPU cluster provisioning is complete, this can move forward. Normal priority.",
+    "output": {
+      "task_name": "set up the feature store for real-time features",
+      "priority": "medium",
+      "assignee": "the API team",
+      "deadline": "not specified",
+      "dependencies": "the GPU cluster provisioning"
+    }
+  },
+  {
+    "id": 461,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The team agreed that Ivan Lopez should create the responsive layout guidelines. We're waiting on the stakeholder feedback round before this can proceed. Target completion is by Thursday EOD. Urgent \u2014 we can't ship without this.",
+    "output": {
+      "task_name": "create the responsive layout guidelines",
+      "priority": "urgent",
+      "assignee": "Ivan Lopez",
+      "deadline": "by Thursday EOD",
+      "dependencies": "the stakeholder feedback round"
+    }
+  },
+  {
+    "id": 508,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to implement the password reset flow. Luna will own this by 05/01. We're waiting on the API redesign before this can proceed. This is a regular task.",
+    "output": {
+      "task_name": "implement the password reset flow",
+      "priority": "medium",
+      "assignee": "Luna",
+      "deadline": "05/01",
+      "dependencies": "the API redesign"
+    }
+  },
+  {
+    "id": 248,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to create high-fidelity mockups for the checkout redesign. the mobile team stepped up to own this. This is blocked by the wireframe approval. This can wait. The expected delivery is at your earliest convenience. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "create high-fidelity mockups for the checkout redesign",
+      "priority": "low",
+      "assignee": "the mobile team",
+      "deadline": "at your earliest convenience",
+      "dependencies": "the wireframe approval"
+    }
+  },
+  {
+    "id": 925,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The architecture review board flagged the need to build the data drift detection system. This has been assigned to Lina given their familiarity with the codebase. This task is contingent on the feature engineering pipeline. The goal is to finish as soon as possible. High priority \u2014 please don't let this slip. A design doc should be submitted before implementation begins.",
+    "output": {
+      "task_name": "build the data drift detection system",
+      "priority": "high",
+      "assignee": "Lina",
+      "deadline": "as soon as possible",
+      "dependencies": "the feature engineering pipeline"
+    }
+  },
+  {
+    "id": 1060,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The team agreed that Amir White should create the customer case study for the enterprise client. Target completion is sometime this quarter. Low priority, not time-sensitive.",
+    "output": {
+      "task_name": "create the customer case study for the enterprise client",
+      "priority": "low",
+      "assignee": "Amir White",
+      "deadline": "sometime this quarter",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 898,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The technical debt review surfaced the need to design the data table component. Anya Scott has agreed to take this on as a focused effort. Ideally, this should be wrapped up before the demo. This is blocking the release. This will improve our velocity in subsequent sprints.",
+    "output": {
+      "task_name": "design the data table component",
+      "priority": "urgent",
+      "assignee": "Anya Scott",
+      "deadline": "before the demo",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 765,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to build the automated model retraining pipeline. the design team stepped up to own this. This is blocked by the labeling effort. This is a regular task. The expected delivery is ASAP. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "build the automated model retraining pipeline",
+      "priority": "medium",
+      "assignee": "the design team",
+      "deadline": "ASAP",
+      "dependencies": "the labeling effort"
+    }
+  },
+  {
+    "id": 1972,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Isla has volunteered to implement the two-factor authentication feature. The target is 07/15. This is a blocker for the entire team.",
+    "output": {
+      "task_name": "implement the two-factor authentication feature",
+      "priority": "urgent",
+      "assignee": "Isla",
+      "deadline": "07/15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1376,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "As part of our quarterly objectives, we need to set up the new SSO provider for all internal tools. Yuki Lee will be the DRI for this initiative. Note that this depends on the compliance audit being completed first. Please prioritize this. We are targeting 2026-03-10 for completion. Updates should be shared in the weekly sync.",
+    "output": {
+      "task_name": "set up the new SSO provider for all internal tools",
+      "priority": "high",
+      "assignee": "Yuki Lee",
+      "deadline": "2026-03-10",
+      "dependencies": "the compliance audit"
+    }
+  },
+  {
+    "id": 1841,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Based on customer feedback, we need to migrate the legacy monolith to microservices to improve the user experience. Ximena will handle this work. Once the CI/CD pipeline update is complete, this can move forward. The product team has requested that this be completed a time to be determined. Please coordinate with the product manager on acceptance criteria.",
+    "output": {
+      "task_name": "migrate the legacy monolith to microservices",
+      "priority": "medium",
+      "assignee": "Ximena",
+      "deadline": "not specified",
+      "dependencies": "the CI/CD pipeline update"
+    }
+  },
+  {
+    "id": 639,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "During the sprint planning session, the team discussed the need to design the user study protocol. After some deliberation, Peter Ward was assigned to lead this effort. This task is contingent on the compute allocation. The target completion date is by the end of the month. Medium priority \u2014 fit it into the sprint if possible. The stakeholders will review the deliverable once it is ready.",
+    "output": {
+      "task_name": "design the user study protocol",
+      "priority": "medium",
+      "assignee": "Peter Ward",
+      "deadline": "by the end of the month",
+      "dependencies": "the compute allocation"
+    }
+  },
+  {
+    "id": 1461,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Run the baseline experiments for the new loss function is on the support team's plate (deadline: April 5). We need this soon.",
+    "output": {
+      "task_name": "run the baseline experiments for the new loss function",
+      "priority": "high",
+      "assignee": "the support team",
+      "deadline": "April 5",
+      "dependencies": "the literature review"
+    }
+  },
+  {
+    "id": 412,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to design the trade show presentation deck. the growth team stepped up to own this. This is dependent on the analytics dashboard setup. Low priority, not time-sensitive. The expected delivery is sometime this quarter. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "design the trade show presentation deck",
+      "priority": "low",
+      "assignee": "the growth team",
+      "deadline": "sometime this quarter",
+      "dependencies": "the analytics dashboard setup"
+    }
+  },
+  {
+    "id": 1413,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Eva needs to collect and annotate the training dataset. This is dependent on the lab environment setup. Please prioritize this.",
+    "output": {
+      "task_name": "collect and annotate the training dataset",
+      "priority": "high",
+      "assignee": "Eva",
+      "deadline": "not specified",
+      "dependencies": "the lab environment setup"
+    }
+  },
+  {
+    "id": 1939,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to migrate the CI/CD pipeline to GitHub Actions. Quinn will own this, due within two weeks. Note that this depends on the procurement process being completed first. Whenever you get a chance.",
+    "output": {
+      "task_name": "migrate the CI/CD pipeline to GitHub Actions",
+      "priority": "low",
+      "assignee": "Quinn",
+      "deadline": "within two weeks",
+      "dependencies": "the procurement process"
+    }
+  },
+  {
+    "id": 1547,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, the security team will run A/B test analysis for the new recommendation algorithm, due by Thursday EOD. This is a regular task.",
+    "output": {
+      "task_name": "run A/B test analysis for the new recommendation algorithm",
+      "priority": "medium",
+      "assignee": "the security team",
+      "deadline": "by Thursday EOD",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1776,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Owen Parker needs to design the dark mode theme for the web app, due within the next three days. Standard priority.",
+    "output": {
+      "task_name": "design the dark mode theme for the web app",
+      "priority": "medium",
+      "assignee": "Owen Parker",
+      "deadline": "within the next three days",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 434,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "During the sprint planning session, the team discussed the need to write the experiment protocol for the human evaluation. After some deliberation, Kevin Brooks was assigned to lead this effort. Once the data sharing agreement is complete, this can move forward. The target completion date is at your earliest convenience. Nice to have, no rush. The stakeholders will review the deliverable once it is ready.",
+    "output": {
+      "task_name": "write the experiment protocol for the human evaluation",
+      "priority": "low",
+      "assignee": "Kevin Brooks",
+      "deadline": "at your earliest convenience",
+      "dependencies": "the data sharing agreement"
+    }
+  },
+  {
+    "id": 867,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "During the sprint planning session, the team discussed the need to prepare the conference paper submission. After some deliberation, Will was assigned to lead this effort. Note that this depends on the ethics review being completed first. The target completion date is a time to be determined. Do this if time permits. The stakeholders will review the deliverable once it is ready.",
+    "output": {
+      "task_name": "prepare the conference paper submission",
+      "priority": "low",
+      "assignee": "Will",
+      "deadline": "not specified",
+      "dependencies": "the ethics review"
+    }
+  },
+  {
+    "id": 1243,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In this sprint, Wendy James is responsible for the task to implement the data export feature. This is blocking the release. Deadline: June 15.",
+    "output": {
+      "task_name": "implement the data export feature",
+      "priority": "urgent",
+      "assignee": "Wendy James",
+      "deadline": "June 15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1081,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Action item for the release team: run A/B test analysis for the new recommendation algorithm \u2014 target: before the all-hands. This is a blocker for the entire team.",
+    "output": {
+      "task_name": "run A/B test analysis for the new recommendation algorithm",
+      "priority": "urgent",
+      "assignee": "the release team",
+      "deadline": "before the all-hands",
+      "dependencies": "the labeling effort"
+    }
+  },
+  {
+    "id": 1853,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "There has been growing demand from the team to build automated rollback for failed deployments. After discussing options, we have decided to assign this to the backend team. This is blocked by the container orchestration setup. The deadline is December 1. Whenever you get a chance. Please reach out to the backend team if you have any relevant context to share.",
+    "output": {
+      "task_name": "build automated rollback for failed deployments",
+      "priority": "low",
+      "assignee": "the backend team",
+      "deadline": "December 1",
+      "dependencies": "the container orchestration setup"
+    }
+  },
+  {
+    "id": 339,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Can Elena Jenkins pick up the task to compile the dataset statistics and distribution analysis, due May 20? We need this soon.",
+    "output": {
+      "task_name": "compile the dataset statistics and distribution analysis",
+      "priority": "high",
+      "assignee": "Elena Jenkins",
+      "deadline": "May 20",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1126,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the recent product review, it is clear that we need to build the text classification pipeline. Ximena Mueller has the right expertise for this and will be taking it on. We are aiming to have this done 09/15. We need this soon. Let us sync on progress at the next standup.",
+    "output": {
+      "task_name": "build the text classification pipeline",
+      "priority": "high",
+      "assignee": "Ximena Mueller",
+      "deadline": "09/15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 974,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Per the retro action items, Grace will build the runbook for database failover procedures, due within the next three days. Note that this depends on the disaster recovery plan being completed first. Low priority, not time-sensitive.",
+    "output": {
+      "task_name": "build the runbook for database failover procedures",
+      "priority": "low",
+      "assignee": "Grace",
+      "deadline": "within the next three days",
+      "dependencies": "the disaster recovery plan"
+    }
+  },
+  {
+    "id": 1352,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "As part of our quarterly objectives, we need to build the recommendation engine prototype. the release team will be the DRI for this initiative. This task is contingent on the data catalog update. This is a stretch goal. We are targeting 09/15 for completion. Updates should be shared in the weekly sync.",
+    "output": {
+      "task_name": "build the recommendation engine prototype",
+      "priority": "low",
+      "assignee": "the release team",
+      "deadline": "09/15",
+      "dependencies": "the data catalog update"
+    }
+  },
+  {
+    "id": 263,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In this sprint, Kevin is responsible for the task to create the automated report generation pipeline. Medium priority \u2014 fit it into the sprint if possible. This is due by tomorrow.",
+    "output": {
+      "task_name": "create the automated report generation pipeline",
+      "priority": "medium",
+      "assignee": "Kevin",
+      "deadline": "by tomorrow",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 258,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Per the retro action items, Nina will implement the two-factor authentication feature (deadline: within the next three days). This is a P0 issue.",
+    "output": {
+      "task_name": "implement the two-factor authentication feature",
+      "priority": "urgent",
+      "assignee": "Nina",
+      "deadline": "within the next three days",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1569,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "As part of our quarterly objectives, we need to set up the experiment reproducibility framework. Paula will be the DRI for this initiative. The benchmark suite preparation needs to be done before this can begin. Please prioritize this. We are targeting September 30 for completion. Updates should be shared in the weekly sync.",
+    "output": {
+      "task_name": "set up the experiment reproducibility framework",
+      "priority": "high",
+      "assignee": "Paula",
+      "deadline": "September 30",
+      "dependencies": "the benchmark suite preparation"
+    }
+  },
+  {
+    "id": 1091,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Opal Nakamura needs to migrate email infrastructure to the new provider. Once the capacity planning assessment is complete, this can move forward. This should be near the top of the backlog.",
+    "output": {
+      "task_name": "migrate email infrastructure to the new provider",
+      "priority": "high",
+      "assignee": "Opal Nakamura",
+      "deadline": "not specified",
+      "dependencies": "the capacity planning assessment"
+    }
+  },
+  {
+    "id": 1558,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The technical debt review surfaced the need to build the landing page for the webinar. the integrations team has agreed to take this on as a focused effort. Ideally, this should be wrapped up a time to be determined. Please prioritize this. This will improve our velocity in subsequent sprints.",
+    "output": {
+      "task_name": "build the landing page for the webinar",
+      "priority": "high",
+      "assignee": "the integrations team",
+      "deadline": "not specified",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 142,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Action item for Felix: prepare the press release for the partnership announcement by soon.",
+    "output": {
+      "task_name": "prepare the press release for the partnership announcement",
+      "priority": "medium",
+      "assignee": "Felix",
+      "deadline": "soon",
+      "dependencies": "the landing page copy"
+    }
+  },
+  {
+    "id": 1672,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the recent product review, it is clear that we need to run A/B test analysis for the new recommendation algorithm. the design team has the right expertise for this and will be taking it on. This is blocked by the experiment tracking setup. We are aiming to have this done April 15. Standard priority. Let us sync on progress at the next standup.",
+    "output": {
+      "task_name": "run A/B test analysis for the new recommendation algorithm",
+      "priority": "medium",
+      "assignee": "the design team",
+      "deadline": "April 15",
+      "dependencies": "the experiment tracking setup"
+    }
+  },
+  {
+    "id": 996,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Set up the annotation platform for the labeling task is on Opal Gray's plate. This is a regular task.",
+    "output": {
+      "task_name": "set up the annotation platform for the labeling task",
+      "priority": "medium",
+      "assignee": "Opal Gray",
+      "deadline": "not specified",
+      "dependencies": "the methodology validation"
+    }
+  },
+  {
+    "id": 1499,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The team agreed that Chen should design the search results page. Note that this depends on the icon set refresh being completed first. Target completion is within two weeks. Standard priority.",
+    "output": {
+      "task_name": "design the search results page",
+      "priority": "medium",
+      "assignee": "Chen",
+      "deadline": "within two weeks",
+      "dependencies": "the icon set refresh"
+    }
+  },
+  {
+    "id": 176,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Reminder: the infrastructure team should build the automated model retraining pipeline. Production is affected \u2014 urgent fix needed.",
+    "output": {
+      "task_name": "build the automated model retraining pipeline",
+      "priority": "urgent",
+      "assignee": "the infrastructure team",
+      "deadline": "not specified",
+      "dependencies": "the experiment tracking setup"
+    }
+  },
+  {
+    "id": 1933,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Per the retro action items, the SRE team will build the time series forecasting model for inventory (deadline: by the end of Q1). We're waiting on the labeling effort before this can proceed. This is important and needs to be done soon.",
+    "output": {
+      "task_name": "build the time series forecasting model for inventory",
+      "priority": "high",
+      "assignee": "the SRE team",
+      "deadline": "by the end of Q1",
+      "dependencies": "the labeling effort"
+    }
+  },
+  {
+    "id": 1865,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The team agreed that Pam should update the disaster recovery runbook. Note that this depends on the disaster recovery plan being completed first. Target completion is before the all-hands. This can wait.",
+    "output": {
+      "task_name": "update the disaster recovery runbook",
+      "priority": "low",
+      "assignee": "Pam",
+      "deadline": "before the all-hands",
+      "dependencies": "the disaster recovery plan"
+    }
+  },
+  {
+    "id": 494,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Action item for Fatima Morgan: write the blog post for the product launch, with a deadline of 03/31. This should be near the top of the backlog.",
+    "output": {
+      "task_name": "write the blog post for the product launch",
+      "priority": "high",
+      "assignee": "Fatima Morgan",
+      "deadline": "03/31",
+      "dependencies": "the landing page copy"
+    }
+  },
+  {
+    "id": 119,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, Hassan Turner will write the grant proposal for the NSF fellowship by by the end of Q3. The client is waiting on this \u2014 top priority.",
+    "output": {
+      "task_name": "write the grant proposal for the NSF fellowship",
+      "priority": "urgent",
+      "assignee": "Hassan Turner",
+      "deadline": "by the end of Q3",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 491,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "As part of our quarterly objectives, we need to add rate limiting to the public API. George Santos will be the DRI for this initiative. We need this soon. We are targeting 2026-07-01 for completion. Updates should be shared in the weekly sync.",
+    "output": {
+      "task_name": "add rate limiting to the public API",
+      "priority": "high",
+      "assignee": "George Santos",
+      "deadline": "2026-07-01",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 630,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We need the partnerships team to build the Figma component library for the design system (deadline: before the all-hands). Important task for the upcoming milestone.",
+    "output": {
+      "task_name": "build the Figma component library for the design system",
+      "priority": "high",
+      "assignee": "the partnerships team",
+      "deadline": "before the all-hands",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1941,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Oscar Scott needs to run the ablation study on the attention mechanism by this week. Whenever you get a chance.",
+    "output": {
+      "task_name": "run the ablation study on the attention mechanism",
+      "priority": "low",
+      "assignee": "Oscar Scott",
+      "deadline": "this week",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1704,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "During the sprint planning session, the team discussed the need to set up the office network infrastructure for the new floor. After some deliberation, Kevin was assigned to lead this effort. The target completion date is July 1. No rush on this one. The stakeholders will review the deliverable once it is ready.",
+    "output": {
+      "task_name": "set up the office network infrastructure for the new floor",
+      "priority": "low",
+      "assignee": "Kevin",
+      "deadline": "July 1",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 744,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Reminder: Xena Moore should migrate the legacy monolith to microservices, with a deadline of by end of sprint. Standard priority.",
+    "output": {
+      "task_name": "migrate the legacy monolith to microservices",
+      "priority": "medium",
+      "assignee": "Xena Moore",
+      "deadline": "by end of sprint",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 230,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Can Jake pick up the task to write the experiment protocol for the human evaluation, due December 15? This is a regular task.",
+    "output": {
+      "task_name": "write the experiment protocol for the human evaluation",
+      "priority": "medium",
+      "assignee": "Jake",
+      "deadline": "December 15",
+      "dependencies": "the grant proposal submission"
+    }
+  },
+  {
+    "id": 40,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The architecture review board flagged the need to write the technical blog post on the research findings. This has been assigned to Wade Long given their familiarity with the codebase. This task is contingent on the experiment design review. The goal is to finish 05/01. Whenever you get a chance. A design doc should be submitted before implementation begins.",
+    "output": {
+      "task_name": "write the technical blog post on the research findings",
+      "priority": "low",
+      "assignee": "Wade Long",
+      "deadline": "05/01",
+      "dependencies": "the experiment design review"
+    }
+  },
+  {
+    "id": 1001,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Create wireframes for the reporting dashboard \u2014 assigned to Zach Stewart. Due January 31. This is a regular task.",
+    "output": {
+      "task_name": "create wireframes for the reporting dashboard",
+      "priority": "medium",
+      "assignee": "Zach Stewart",
+      "deadline": "January 31",
+      "dependencies": "the user research findings"
+    }
+  },
+  {
+    "id": 664,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Set up the new ticketing system for internal support is on the product team's plate by within the next three days. Low priority, not time-sensitive.",
+    "output": {
+      "task_name": "set up the new ticketing system for internal support",
+      "priority": "low",
+      "assignee": "the product team",
+      "deadline": "within the next three days",
+      "dependencies": "the vendor contract renewal"
+    }
+  },
+  {
+    "id": 1227,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In this sprint, Yara is responsible for the task to build the capacity planning forecast for Q4. Note that this depends on the change management process being completed first. Whenever you get a chance. Target completion: ASAP.",
+    "output": {
+      "task_name": "build the capacity planning forecast for Q4",
+      "priority": "low",
+      "assignee": "Yara",
+      "deadline": "ASAP",
+      "dependencies": "the change management process"
+    }
+  },
+  {
+    "id": 2,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The technical debt review surfaced the need to implement connection pooling for the database layer. Pam has agreed to take this on as a focused effort. Ideally, this should be wrapped up by end of sprint. Production is affected \u2014 urgent fix needed. This will improve our velocity in subsequent sprints.",
+    "output": {
+      "task_name": "implement connection pooling for the database layer",
+      "priority": "urgent",
+      "assignee": "Pam",
+      "deadline": "by end of sprint",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1087,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In this sprint, Julia is responsible for the task to set up the marketing attribution model. Normal priority. This is due when ready.",
+    "output": {
+      "task_name": "set up the marketing attribution model",
+      "priority": "medium",
+      "assignee": "Julia",
+      "deadline": "when ready",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1595,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Hugo needs to write the literature review on transformer architectures (deadline: this week). This is blocked by the ethics review. This can wait.",
+    "output": {
+      "task_name": "write the literature review on transformer architectures",
+      "priority": "low",
+      "assignee": "Hugo",
+      "deadline": "this week",
+      "dependencies": "the ethics review"
+    }
+  },
+  {
+    "id": 1105,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The team agreed that Maria should build the benchmark evaluation suite. Target completion is as soon as possible. Low priority \u2014 handle whenever you have bandwidth.",
+    "output": {
+      "task_name": "build the benchmark evaluation suite",
+      "priority": "low",
+      "assignee": "Maria",
+      "deadline": "as soon as possible",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 331,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to set up the real-time anomaly detection pipeline. Hannah will own this, due by the end of the month. Once the data warehouse migration is complete, this can move forward. This is critical and must be done ASAP.",
+    "output": {
+      "task_name": "set up the real-time anomaly detection pipeline",
+      "priority": "urgent",
+      "assignee": "Hannah",
+      "deadline": "by the end of the month",
+      "dependencies": "the data warehouse migration"
+    }
+  },
+  {
+    "id": 1562,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Can Wendy pick up the task to create the vendor risk assessment framework by ASAP? Low priority, not time-sensitive.",
+    "output": {
+      "task_name": "create the vendor risk assessment framework",
+      "priority": "low",
+      "assignee": "Wendy",
+      "deadline": "ASAP",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 766,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Reminder: the marketing team should fix the race condition in the session handler, with a deadline of December 1. This is a blocker for the entire team.",
+    "output": {
+      "task_name": "fix the race condition in the session handler",
+      "priority": "urgent",
+      "assignee": "the marketing team",
+      "deadline": "December 1",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1830,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Build the data collection infrastructure for the study has been added to the backlog. Irene Patterson is the owner \u2014 target: September 15. This is high on the priority list.",
+    "output": {
+      "task_name": "build the data collection infrastructure for the study",
+      "priority": "high",
+      "assignee": "Irene Patterson",
+      "deadline": "September 15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1974,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Can Jess pick up the task to set up log aggregation for production services? This is important and needs to be done soon.",
+    "output": {
+      "task_name": "set up log aggregation for production services",
+      "priority": "high",
+      "assignee": "Jess",
+      "deadline": "not specified",
+      "dependencies": "the gRPC migration"
+    }
+  },
+  {
+    "id": 1894,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "There has been growing demand from the team to run the ablation study on the attention mechanism. After discussing options, we have decided to assign this to Jess. This is blocked by the lab environment setup. The deadline is a time to be determined. Please prioritize this. Please reach out to Jess if you have any relevant context to share.",
+    "output": {
+      "task_name": "run the ablation study on the attention mechanism",
+      "priority": "high",
+      "assignee": "Jess",
+      "deadline": "not specified",
+      "dependencies": "the lab environment setup"
+    }
+  },
+  {
+    "id": 1790,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the recent product review, it is clear that we need to set up the alerting thresholds for production services. the SRE team has the right expertise for this and will be taking it on. We are aiming to have this done by next Wednesday. This is a showstopper. Let us sync on progress at the next standup.",
+    "output": {
+      "task_name": "set up the alerting thresholds for production services",
+      "priority": "urgent",
+      "assignee": "the SRE team",
+      "deadline": "by next Wednesday",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1309,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Can Will pick up the task to write integration tests for the billing API, with a deadline of by Thursday EOD? Medium priority \u2014 fit it into the sprint if possible.",
+    "output": {
+      "task_name": "write integration tests for the billing API",
+      "priority": "medium",
+      "assignee": "Will",
+      "deadline": "by Thursday EOD",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1724,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Frank has volunteered to build the capacity planning forecast for Q4. We're waiting on the incident response playbook before this can proceed. The target is before the board meeting. This is high on the priority list.",
+    "output": {
+      "task_name": "build the capacity planning forecast for Q4",
+      "priority": "high",
+      "assignee": "Frank",
+      "deadline": "before the board meeting",
+      "dependencies": "the incident response playbook"
+    }
+  },
+  {
+    "id": 612,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Create the vendor risk assessment framework is on Leo Thompson's plate (deadline: within two weeks). Low priority \u2014 handle whenever you have bandwidth.",
+    "output": {
+      "task_name": "create the vendor risk assessment framework",
+      "priority": "low",
+      "assignee": "Leo Thompson",
+      "deadline": "within two weeks",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1281,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The architecture review board flagged the need to implement the LLM fine-tuning pipeline. This has been assigned to Priya Park given their familiarity with the codebase. Once the data pipeline refactor is complete, this can move forward. The goal is to finish a time to be determined. Normal priority. A design doc should be submitted before implementation begins.",
+    "output": {
+      "task_name": "implement the LLM fine-tuning pipeline",
+      "priority": "medium",
+      "assignee": "Priya Park",
+      "deadline": "not specified",
+      "dependencies": "the data pipeline refactor"
+    }
+  },
+  {
+    "id": 1783,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Opal Butler needs to implement the batch processing job scheduler by 2026-09-25. Note that this depends on the monitoring setup being completed first. This has been escalated to critical.",
+    "output": {
+      "task_name": "implement the batch processing job scheduler",
+      "priority": "urgent",
+      "assignee": "Opal Butler",
+      "deadline": "2026-09-25",
+      "dependencies": "the monitoring setup"
+    }
+  },
+  {
+    "id": 218,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Mona Simmons needs to clean and preprocess the transaction dataset \u2014 target: 01/15. This has been escalated to critical.",
+    "output": {
+      "task_name": "clean and preprocess the transaction dataset",
+      "priority": "urgent",
+      "assignee": "Mona Simmons",
+      "deadline": "01/15",
+      "dependencies": "the data pipeline refactor"
+    }
+  },
+  {
+    "id": 1040,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Marcus has volunteered to conduct the expert interviews for the qualitative study. The target is within the next three days.",
+    "output": {
+      "task_name": "conduct the expert interviews for the qualitative study",
+      "priority": "medium",
+      "assignee": "Marcus",
+      "deadline": "within the next three days",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 366,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Assigning the ML team to write the literature review on transformer architectures (deadline: by next Monday). This is important and needs to be done soon.",
+    "output": {
+      "task_name": "write the literature review on transformer architectures",
+      "priority": "high",
+      "assignee": "the ML team",
+      "deadline": "by next Monday",
+      "dependencies": "the grant proposal submission"
+    }
+  },
+  {
+    "id": 1561,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the recent product review, it is clear that we need to fix the race condition in the session handler. Priya Brooks has the right expertise for this and will be taking it on. This is dependent on the database migration. We are aiming to have this done 08/31. Let us sync on progress at the next standup.",
+    "output": {
+      "task_name": "fix the race condition in the session handler",
+      "priority": "medium",
+      "assignee": "Priya Brooks",
+      "deadline": "08/31",
+      "dependencies": "the database migration"
+    }
+  },
+  {
+    "id": 1026,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to set up log aggregation for production services. Reed stepped up to own this. Once the CI/CD pipeline update is complete, this can move forward. Normal priority. The expected delivery is before the all-hands. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "set up log aggregation for production services",
+      "priority": "medium",
+      "assignee": "Reed",
+      "deadline": "before the all-hands",
+      "dependencies": "the CI/CD pipeline update"
+    }
+  },
+  {
+    "id": 540,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to build a dashboard for model performance metrics. Jake stepped up to own this. This task is contingent on the data governance review. We need this resolved immediately. The expected delivery is May 1. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "build a dashboard for model performance metrics",
+      "priority": "urgent",
+      "assignee": "Jake",
+      "deadline": "May 1",
+      "dependencies": "the data governance review"
+    }
+  },
+  {
+    "id": 1474,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Action item for the release team: build the design QA checklist for handoff, with a deadline of this week. This is a P0 issue.",
+    "output": {
+      "task_name": "build the design QA checklist for handoff",
+      "priority": "urgent",
+      "assignee": "the release team",
+      "deadline": "this week",
+      "dependencies": "the icon set refresh"
+    }
+  },
+  {
+    "id": 1794,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to update the disaster recovery runbook. Hassan stepped up to own this. Note that this depends on the SLA renegotiation being completed first. The expected delivery is a time to be determined. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "update the disaster recovery runbook",
+      "priority": "medium",
+      "assignee": "Hassan",
+      "deadline": "not specified",
+      "dependencies": "the SLA renegotiation"
+    }
+  },
+  {
+    "id": 1479,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the recent product review, it is clear that we need to implement pagination for the search results API. Zoe has the right expertise for this and will be taking it on. This task is contingent on the database migration. We are aiming to have this done soon. This is a key deliverable for the quarter. Let us sync on progress at the next standup.",
+    "output": {
+      "task_name": "implement pagination for the search results API",
+      "priority": "high",
+      "assignee": "Zoe",
+      "deadline": "soon",
+      "dependencies": "the database migration"
+    }
+  },
+  {
+    "id": 7,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to update the disaster recovery runbook. Carlos will own this, with a deadline of July 31. This is blocked by the capacity planning assessment. This is a regular task.",
+    "output": {
+      "task_name": "update the disaster recovery runbook",
+      "priority": "medium",
+      "assignee": "Carlos",
+      "deadline": "July 31",
+      "dependencies": "the capacity planning assessment"
+    }
+  },
+  {
+    "id": 930,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "During the sprint planning session, the team discussed the need to implement the multi-tenant data isolation layer. After some deliberation, the ops team was assigned to lead this effort. The target completion date is August 15. This is critical and must be done ASAP. The stakeholders will review the deliverable once it is ready.",
+    "output": {
+      "task_name": "implement the multi-tenant data isolation layer",
+      "priority": "urgent",
+      "assignee": "the ops team",
+      "deadline": "August 15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 324,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Irene: write the methodology section for the paper (deadline: at your earliest convenience). High priority \u2014 please don't let this slip.",
+    "output": {
+      "task_name": "write the methodology section for the paper",
+      "priority": "high",
+      "assignee": "Irene",
+      "deadline": "at your earliest convenience",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 891,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We need Andre Morgan to create wireframes for the reporting dashboard, with a deadline of by the end of the month. This is a P0 issue.",
+    "output": {
+      "task_name": "create wireframes for the reporting dashboard",
+      "priority": "urgent",
+      "assignee": "Andre Morgan",
+      "deadline": "by the end of the month",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 602,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Assigning Sarah Park to analyze the results from the pilot study by as soon as possible. High priority \u2014 please don't let this slip.",
+    "output": {
+      "task_name": "analyze the results from the pilot study",
+      "priority": "high",
+      "assignee": "Sarah Park",
+      "deadline": "as soon as possible",
+      "dependencies": "the ethics review"
+    }
+  },
+  {
+    "id": 1999,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Based on customer feedback, we need to create the incident response playbook for security breaches to improve the user experience. Ben will handle this work. Note that this depends on the procurement process being completed first. The product team has requested that this be completed January 31. This is a regular task. Please coordinate with the product manager on acceptance criteria.",
+    "output": {
+      "task_name": "create the incident response playbook for security breaches",
+      "priority": "medium",
+      "assignee": "Ben",
+      "deadline": "January 31",
+      "dependencies": "the procurement process"
+    }
+  },
+  {
+    "id": 1956,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Analyze the results from the pilot study has been added to the backlog. Oscar Bell is the owner \u2014 target: November 1. This is dependent on the data sharing agreement. This is a regular task.",
+    "output": {
+      "task_name": "analyze the results from the pilot study",
+      "priority": "medium",
+      "assignee": "Oscar Bell",
+      "deadline": "November 1",
+      "dependencies": "the data sharing agreement"
+    }
+  },
+  {
+    "id": 1313,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "There has been growing demand from the team to analyze the conversion funnel for the signup flow. After discussing options, we have decided to assign this to the DevOps team. The deadline is by Thursday EOD. Low priority \u2014 handle whenever you have bandwidth. Please reach out to the DevOps team if you have any relevant context to share.",
+    "output": {
+      "task_name": "analyze the conversion funnel for the signup flow",
+      "priority": "low",
+      "assignee": "the DevOps team",
+      "deadline": "by Thursday EOD",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1575,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to implement the event sourcing pattern for orders. Nathan will own this (deadline: by next Wednesday). Note that this depends on the caching layer being completed first. This is a key deliverable for the quarter.",
+    "output": {
+      "task_name": "implement the event sourcing pattern for orders",
+      "priority": "high",
+      "assignee": "Nathan",
+      "deadline": "by next Wednesday",
+      "dependencies": "the caching layer"
+    }
+  },
+  {
+    "id": 1899,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to implement WebSocket support for live notifications. the growth team stepped up to own this. Note that this depends on the caching layer being completed first. This is high on the priority list. The expected delivery is within two weeks. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "implement WebSocket support for live notifications",
+      "priority": "high",
+      "assignee": "the growth team",
+      "deadline": "within two weeks",
+      "dependencies": "the caching layer"
+    }
+  },
+  {
+    "id": 1538,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "the API team needs to add input sanitization across all form endpoints, due 05/01. We need this soon.",
+    "output": {
+      "task_name": "add input sanitization across all form endpoints",
+      "priority": "high",
+      "assignee": "the API team",
+      "deadline": "05/01",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1100,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the recent product review, it is clear that we need to create the color palette for the rebrand. Lina Anderson has the right expertise for this and will be taking it on. We are aiming to have this done soon. This is a key deliverable for the quarter. Let us sync on progress at the next standup.",
+    "output": {
+      "task_name": "create the color palette for the rebrand",
+      "priority": "high",
+      "assignee": "Lina Anderson",
+      "deadline": "soon",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1397,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to set up automated backup verification for production databases. Violet stepped up to own this. Once the disaster recovery plan is complete, this can move forward. Low priority \u2014 handle whenever you have bandwidth. The expected delivery is by the end of Q3. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "set up automated backup verification for production databases",
+      "priority": "low",
+      "assignee": "Violet",
+      "deadline": "by the end of Q3",
+      "dependencies": "the disaster recovery plan"
+    }
+  },
+  {
+    "id": 235,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Can Troy pick up the task to perform the annual security penetration test (deadline: sometime this quarter)? This should be near the top of the backlog.",
+    "output": {
+      "task_name": "perform the annual security penetration test",
+      "priority": "high",
+      "assignee": "Troy",
+      "deadline": "sometime this quarter",
+      "dependencies": "the procurement process"
+    }
+  },
+  {
+    "id": 1477,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the recent product review, it is clear that we need to implement the RAG pipeline for document search. Greg has the right expertise for this and will be taking it on. This task is contingent on the model training infrastructure. We are aiming to have this done before the demo. This is important and needs to be done soon. Let us sync on progress at the next standup.",
+    "output": {
+      "task_name": "implement the RAG pipeline for document search",
+      "priority": "high",
+      "assignee": "Greg",
+      "deadline": "before the demo",
+      "dependencies": "the model training infrastructure"
+    }
+  },
+  {
+    "id": 1826,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Write the product update newsletter is on the data team's plate \u2014 target: at your earliest convenience. High priority \u2014 please don't let this slip.",
+    "output": {
+      "task_name": "write the product update newsletter",
+      "priority": "high",
+      "assignee": "the data team",
+      "deadline": "at your earliest convenience",
+      "dependencies": "the analytics dashboard setup"
+    }
+  },
+  {
+    "id": 24,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to build the real-time collaboration backend. Will stepped up to own this. Note that this depends on the rate limiter implementation being completed first. Drop everything and handle this. The expected delivery is ASAP. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "build the real-time collaboration backend",
+      "priority": "urgent",
+      "assignee": "Will",
+      "deadline": "ASAP",
+      "dependencies": "the rate limiter implementation"
+    }
+  },
+  {
+    "id": 1763,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, Sarah Adams will perform the annual security penetration test \u2014 target: before the all-hands. This is dependent on the resource allocation plan. This is a stretch goal.",
+    "output": {
+      "task_name": "perform the annual security penetration test",
+      "priority": "low",
+      "assignee": "Sarah Adams",
+      "deadline": "before the all-hands",
+      "dependencies": "the resource allocation plan"
+    }
+  },
+  {
+    "id": 1134,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "During the sprint planning session, the team discussed the need to migrate the team from Jira to Linear. After some deliberation, the product team was assigned to lead this effort. This is dependent on the budget approval. The target completion date is July 1. The stakeholders will review the deliverable once it is ready.",
+    "output": {
+      "task_name": "migrate the team from Jira to Linear",
+      "priority": "medium",
+      "assignee": "the product team",
+      "deadline": "July 1",
+      "dependencies": "the budget approval"
+    }
+  },
+  {
+    "id": 515,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, Mona Ross will redesign the onboarding flow \u2014 target: 01/15. Normal priority.",
+    "output": {
+      "task_name": "redesign the onboarding flow",
+      "priority": "medium",
+      "assignee": "Mona Ross",
+      "deadline": "01/15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1084,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In this sprint, the growth team is responsible for the task to implement file versioning in the document storage service. This is dependent on the container orchestration setup. Low priority \u2014 handle whenever you have bandwidth.",
+    "output": {
+      "task_name": "implement file versioning in the document storage service",
+      "priority": "low",
+      "assignee": "the growth team",
+      "deadline": "not specified",
+      "dependencies": "the container orchestration setup"
+    }
+  },
+  {
+    "id": 959,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "the SRE team: build the Figma component library for the design system. Normal priority.",
+    "output": {
+      "task_name": "build the Figma component library for the design system",
+      "priority": "medium",
+      "assignee": "the SRE team",
+      "deadline": "not specified",
+      "dependencies": "the UX research report"
+    }
+  },
+  {
+    "id": 1221,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Perform the cloud cost optimization review has been added to the backlog. Chen is the owner (deadline: by next release). This task is contingent on the cost optimization review.",
+    "output": {
+      "task_name": "perform the cloud cost optimization review",
+      "priority": "medium",
+      "assignee": "Chen",
+      "deadline": "by next release",
+      "dependencies": "the cost optimization review"
+    }
+  },
+  {
+    "id": 782,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "We've identified a need to write the literature review on transformer architectures. Xavier will own this (deadline: next week). This can't start until the IRB approval is finished. Whenever you get a chance.",
+    "output": {
+      "task_name": "write the literature review on transformer architectures",
+      "priority": "low",
+      "assignee": "Xavier",
+      "deadline": "next week",
+      "dependencies": "the IRB approval"
+    }
+  },
+  {
+    "id": 789,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "As part of our quarterly objectives, we need to set up the GPU training cluster. Fiona Morris will be the DRI for this initiative. We're waiting on the data warehouse migration before this can proceed. No rush on this one. We are targeting next week for completion. Updates should be shared in the weekly sync.",
+    "output": {
+      "task_name": "set up the GPU training cluster",
+      "priority": "low",
+      "assignee": "Fiona Morris",
+      "deadline": "next week",
+      "dependencies": "the data warehouse migration"
+    }
+  },
+  {
+    "id": 131,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The architecture review board flagged the need to design the empty states for all dashboard views. This has been assigned to Kyle Anderson given their familiarity with the codebase. The goal is to finish March 15. We need this soon. A design doc should be submitted before implementation begins.",
+    "output": {
+      "task_name": "design the empty states for all dashboard views",
+      "priority": "high",
+      "assignee": "Kyle Anderson",
+      "deadline": "March 15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1222,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Design the event booth materials has been added to the backlog. Elena is the owner (deadline: by Thursday EOD). Standard priority.",
+    "output": {
+      "task_name": "design the event booth materials",
+      "priority": "medium",
+      "assignee": "Elena",
+      "deadline": "by Thursday EOD",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1984,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The architecture review board flagged the need to implement the multi-tenant data isolation layer. This has been assigned to Vera Hernandez given their familiarity with the codebase. The microservice migration needs to be done before this can begin. The goal is to finish a time to be determined. Important task for the upcoming milestone. A design doc should be submitted before implementation begins.",
+    "output": {
+      "task_name": "implement the multi-tenant data isolation layer",
+      "priority": "high",
+      "assignee": "Vera Hernandez",
+      "deadline": "not specified",
+      "dependencies": "the microservice migration"
+    }
+  },
+  {
+    "id": 1394,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Alice: set up experiment tracking with MLflow. Drop everything and handle this.",
+    "output": {
+      "task_name": "set up experiment tracking with MLflow",
+      "priority": "urgent",
+      "assignee": "Alice",
+      "deadline": "not specified",
+      "dependencies": "the embedding pipeline"
+    }
+  },
+  {
+    "id": 1623,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Can Uma Morgan pick up the task to build the pricing optimization model, due as soon as possible?",
+    "output": {
+      "task_name": "build the pricing optimization model",
+      "priority": "medium",
+      "assignee": "Uma Morgan",
+      "deadline": "as soon as possible",
+      "dependencies": "the model training infrastructure"
+    }
+  },
+  {
+    "id": 328,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, Anya will prepare the quarterly marketing performance report, with a deadline of before the demo. Note that this depends on the content calendar approval being completed first. Please prioritize this.",
+    "output": {
+      "task_name": "prepare the quarterly marketing performance report",
+      "priority": "high",
+      "assignee": "Anya",
+      "deadline": "before the demo",
+      "dependencies": "the content calendar approval"
+    }
+  },
+  {
+    "id": 1286,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the recent product review, it is clear that we need to revamp the data visualization components. the marketing team has the right expertise for this and will be taking it on. Once the usability test results is complete, this can move forward. We are aiming to have this done before code freeze. Medium priority \u2014 fit it into the sprint if possible. Let us sync on progress at the next standup.",
+    "output": {
+      "task_name": "revamp the data visualization components",
+      "priority": "medium",
+      "assignee": "the marketing team",
+      "deadline": "before code freeze",
+      "dependencies": "the usability test results"
+    }
+  },
+  {
+    "id": 314,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Assigning Grace Powell to build the feature toggle management UI (deadline: by end of sprint). This can wait.",
+    "output": {
+      "task_name": "build the feature toggle management UI",
+      "priority": "low",
+      "assignee": "Grace Powell",
+      "deadline": "by end of sprint",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 225,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Can Wes pick up the task to create the competitive positioning document by December 1? Please prioritize this.",
+    "output": {
+      "task_name": "create the competitive positioning document",
+      "priority": "high",
+      "assignee": "Wes",
+      "deadline": "December 1",
+      "dependencies": "the analytics dashboard setup"
+    }
+  },
+  {
+    "id": 1764,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, the SRE team will build the lead scoring model with the data team (deadline: by Friday). We're waiting on the brand refresh before this can proceed. Urgent \u2014 we can't ship without this.",
+    "output": {
+      "task_name": "build the lead scoring model with the data team",
+      "priority": "urgent",
+      "assignee": "the SRE team",
+      "deadline": "by Friday",
+      "dependencies": "the brand refresh"
+    }
+  },
+  {
+    "id": 97,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to build the landing page for the webinar. the mobile team stepped up to own this. This can wait. The expected delivery is as soon as possible. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "build the landing page for the webinar",
+      "priority": "low",
+      "assignee": "the mobile team",
+      "deadline": "as soon as possible",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1548,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The architecture review board flagged the need to conduct usability testing for the new navigation. This has been assigned to Hannah given their familiarity with the codebase. The goal is to finish 11/15. This can wait. A design doc should be submitted before implementation begins.",
+    "output": {
+      "task_name": "conduct usability testing for the new navigation",
+      "priority": "low",
+      "assignee": "Hannah",
+      "deadline": "11/15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 187,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, the integrations team will migrate from REST to GraphQL for the mobile client. The microservice migration needs to be done before this can begin. This is time-critical.",
+    "output": {
+      "task_name": "migrate from REST to GraphQL for the mobile client",
+      "priority": "urgent",
+      "assignee": "the integrations team",
+      "deadline": "not specified",
+      "dependencies": "the microservice migration"
+    }
+  },
+  {
+    "id": 1011,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to build the design QA checklist for handoff. Isla stepped up to own this. Once the icon set refresh is complete, this can move forward. The expected delivery is November 30. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "build the design QA checklist for handoff",
+      "priority": "medium",
+      "assignee": "Isla",
+      "deadline": "November 30",
+      "dependencies": "the icon set refresh"
+    }
+  },
+  {
+    "id": 1044,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Action item for Max Bennett: design the contextual help system, with a deadline of May 20. This is a regular task.",
+    "output": {
+      "task_name": "design the contextual help system",
+      "priority": "medium",
+      "assignee": "Max Bennett",
+      "deadline": "May 20",
+      "dependencies": "the usability test results"
+    }
+  },
+  {
+    "id": 284,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Fiona needs to implement the secrets management solution, with a deadline of by next release. High priority \u2014 please don't let this slip.",
+    "output": {
+      "task_name": "implement the secrets management solution",
+      "priority": "high",
+      "assignee": "Fiona",
+      "deadline": "by next release",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1881,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In this sprint, the product team is responsible for the task to conduct the expert interviews for the qualitative study. This can't start until the grant proposal submission is finished. This is important and needs to be done soon. Expected delivery: by end of sprint.",
+    "output": {
+      "task_name": "conduct the expert interviews for the qualitative study",
+      "priority": "high",
+      "assignee": "the product team",
+      "deadline": "by end of sprint",
+      "dependencies": "the grant proposal submission"
+    }
+  },
+  {
+    "id": 742,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "During the sprint planning session, the team discussed the need to implement the log retention policy. After some deliberation, the integrations team was assigned to lead this effort. We're waiting on the access control audit before this can proceed. The target completion date is within two weeks. This can wait. The stakeholders will review the deliverable once it is ready.",
+    "output": {
+      "task_name": "implement the log retention policy",
+      "priority": "low",
+      "assignee": "the integrations team",
+      "deadline": "within two weeks",
+      "dependencies": "the access control audit"
+    }
+  },
+  {
+    "id": 818,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The team agreed that the data team should create a health check endpoint for all microservices. Target completion is soon. Urgent \u2014 we can't ship without this.",
+    "output": {
+      "task_name": "create a health check endpoint for all microservices",
+      "priority": "urgent",
+      "assignee": "the data team",
+      "deadline": "soon",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1196,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, the product team will run the scaling experiments on larger datasets, due October 15. Low priority, not time-sensitive.",
+    "output": {
+      "task_name": "run the scaling experiments on larger datasets",
+      "priority": "low",
+      "assignee": "the product team",
+      "deadline": "October 15",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1839,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Following the planning meeting, the frontend team will prepare the press release for the partnership announcement, due 2026-09-25. This task is contingent on the competitor analysis. Do this if time permits.",
+    "output": {
+      "task_name": "prepare the press release for the partnership announcement",
+      "priority": "low",
+      "assignee": "the frontend team",
+      "deadline": "2026-09-25",
+      "dependencies": "the competitor analysis"
+    }
+  },
+  {
+    "id": 878,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "There has been growing demand from the team to analyze the conversion funnel for the signup flow. After discussing options, we have decided to assign this to Wendy. The deadline is by sprint review. Important task for the upcoming milestone. Please reach out to Wendy if you have any relevant context to share.",
+    "output": {
+      "task_name": "analyze the conversion funnel for the signup flow",
+      "priority": "high",
+      "assignee": "Wendy",
+      "deadline": "by sprint review",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1198,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Please have the QA team perform the quarterly license audit by before the next standup. Low priority \u2014 handle whenever you have bandwidth.",
+    "output": {
+      "task_name": "perform the quarterly license audit",
+      "priority": "low",
+      "assignee": "the QA team",
+      "deadline": "before the next standup",
+      "dependencies": "none"
+    }
+  },
+  {
+    "id": 1530,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "In our last retrospective, the team raised the issue of needing to run A/B test analysis for the new recommendation algorithm. the ML team stepped up to own this. This can't start until the annotation guidelines is finished. No rush on this one. The expected delivery is a time to be determined. Please document any decisions made along the way.",
+    "output": {
+      "task_name": "run A/B test analysis for the new recommendation algorithm",
+      "priority": "low",
+      "assignee": "the ML team",
+      "deadline": "not specified",
+      "dependencies": "the annotation guidelines"
+    }
+  },
+  {
+    "id": 539,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Assigning the backend team to prepare the IRB amendment for the expanded study. This is a blocker for the entire team.",
+    "output": {
+      "task_name": "prepare the IRB amendment for the expanded study",
+      "priority": "urgent",
+      "assignee": "the backend team",
+      "deadline": "not specified",
+      "dependencies": "the experiment design review"
+    }
+  },
+  {
+    "id": 1104,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "The architecture review board flagged the need to set up the feature store for real-time features. This has been assigned to Ian Torres given their familiarity with the codebase. This is dependent on the GPU cluster provisioning. The goal is to finish August 15. This is time-critical. A design doc should be submitted before implementation begins.",
+    "output": {
+      "task_name": "set up the feature store for real-time features",
+      "priority": "urgent",
+      "assignee": "Ian Torres",
+      "deadline": "August 15",
+      "dependencies": "the GPU cluster provisioning"
+    }
+  },
+  {
+    "id": 1975,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Reminder: Irene should run the baseline experiments for the new loss function by before the board meeting. This is important and needs to be done soon.",
+    "output": {
+      "task_name": "run the baseline experiments for the new loss function",
+      "priority": "high",
+      "assignee": "Irene",
+      "deadline": "before the board meeting",
+      "dependencies": "the ethics review"
+    }
+  },
+  {
+    "id": 1526,
+    "instruction": "Extract the following fields from the text below into a JSON object: task_name, priority, assignee, deadline, dependencies.",
+    "input": "Assigning Irene to build the benchmark evaluation suite, due September 15. This should be near the top of the backlog.",
+    "output": {
+      "task_name": "build the benchmark evaluation suite",
+      "priority": "high",
+      "assignee": "Irene",
+      "deadline": "September 15",
+      "dependencies": "the lab environment setup"
+    }
+  }
+]
