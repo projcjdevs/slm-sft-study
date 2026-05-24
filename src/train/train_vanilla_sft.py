@@ -134,7 +134,7 @@ def main():
         args=TRAINING_ARGS,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        processing_class=tokenizer,
+        tokenizer=tokenizer,
     )
 
     print("\nStarting training...")
