@@ -70,7 +70,6 @@ TRAINING_ARGS = TrainingArguments(
     report_to="wandb",             # sends all metrics to W&B automatically
     run_name=WANDB_RUN,
     dataloader_num_workers=0,      # Windows needs this at 0
-    group_by_length=True,          # batches similar-length examples together
                                    # reduces padding waste, speeds up training
 )
 
