@@ -8,3 +8,10 @@ wandb/
 *.safetensors
 data/raw/
 wandbapi.txt
+models/
+
+# Debugging
+debug_trl.py
+error_log.txt
+fix_trl.py
+fix_trl2.py
