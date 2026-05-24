@@ -1,0 +1,2387 @@
+[
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Plan Content Calendar\",\n        \"priority\": \"Medium\",\n        \"assignee\": \"Partnerships Team\",\n        \"deadline\": \"November 1\",\n        \"dependencies\": [\"Analytics Dashboard Setup\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Plan Content Calendar",
+      "priority": "Medium",
+      "assignee": "Partnerships Team",
+      "deadline": "November 1",
+      "dependencies": [
+        "Analytics Dashboard Setup"
+      ]
+    },
+    "condition": "B",
+    "example_id": 506
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Technical Debt Review\",\n  \"priority\": \"High\",\n  \"assignee\": \"Nate\",\n  \"deadline\": \"End of Sprint\",\n  \"dependencies\": [\"Brand Refresh\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Technical Debt Review",
+      "priority": "High",
+      "assignee": "Nate",
+      "deadline": "End of Sprint",
+      "dependencies": [
+        "Brand Refresh"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1993
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"compile the dataset statistics and distribution analysis\",\n  \"priority\": \"top\",\n  \"assignee\": \"\",\n  \"deadline\": \"\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "compile the dataset statistics and distribution analysis",
+      "priority": "top",
+      "assignee": "",
+      "deadline": "",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 543
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"conduct expert interviews\",\n  \"priority\": \"Medium\",\n  \"assignee\": \"Fatima Green\",\n  \"deadline\": \"\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "conduct expert interviews",
+      "priority": "Medium",
+      "assignee": "Fatima Green",
+      "deadline": "",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 293
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"write the discussion section for the journal paper\",\n  \"priority\": \"standard\",\n  \"assignee\": null,\n  \"deadline\": \"at your earliest convenience\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "write the discussion section for the journal paper",
+      "priority": "standard",
+      "assignee": null,
+      "deadline": "at your earliest convenience",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 940
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Prepare the Quarterly Marketing Performance Report\",\n  \"priority\": \"Important\",\n  \"assignee\": \"\",\n  \"deadline\": \"\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Prepare the Quarterly Marketing Performance Report",
+      "priority": "Important",
+      "assignee": "",
+      "deadline": "",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 1317
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"implement WebSocket support for live notifications\",\n  \"priority\": \"Urgent\",\n  \"assignee\": \"Isla Patel\",\n  \"deadline\": \"end of sprint\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "implement WebSocket support for live notifications",
+      "priority": "Urgent",
+      "assignee": "Isla Patel",
+      "deadline": "end of sprint",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1812
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"prepare the IRB amendment for the expanded study\",\n  \"priority\": \"Standard\",\n  \"assignee\": \"\",\n  \"deadline\": \"July 1\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "prepare the IRB amendment for the expanded study",
+      "priority": "Standard",
+      "assignee": "",
+      "deadline": "July 1",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 811
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Deploy the sentiment analysis model to production\",\n  \"priority\": \"P0\",\n  \"assignee\": \"Darius\",\n  \"deadline\": \"before the demo\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Deploy the sentiment analysis model to production",
+      "priority": "P0",
+      "assignee": "Darius",
+      "deadline": "before the demo",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1023
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up the experiment reproducibility framework\",\n  \"priority\": \"Normal\",\n  \"assignee\": \"Youssef Lee\",\n  \"deadline\": null,\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up the experiment reproducibility framework",
+      "priority": "Normal",
+      "assignee": "Youssef Lee",
+      "deadline": null,
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1343
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.0,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"SSO Integration for Enterprise Clients\",\n  \"priority\": \"High\",\n  \"assignee\": \"Not Specified\",\n  \"deadline\": \"Next Wednesday\",\n  \"dependencies\": [\"Feature Flag System\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "SSO Integration for Enterprise Clients",
+      "priority": "High",
+      "assignee": "Not Specified",
+      "deadline": "Next Wednesday",
+      "dependencies": [
+        "Feature Flag System"
+      ]
+    },
+    "condition": "B",
+    "example_id": 436
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design empty states for all dashboard views\",\n  \"priority\": \"Regular\",\n  \"assignee\": \"Leo\",\n  \"deadline\": \"by Thursday EOD\",\n  \"dependencies\": [\"design system migration\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design empty states for all dashboard views",
+      "priority": "Regular",
+      "assignee": "Leo",
+      "deadline": "by Thursday EOD",
+      "dependencies": [
+        "design system migration"
+      ]
+    },
+    "condition": "B",
+    "example_id": 645
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"implement the secrets management solution\",\n  \"priority\": \"high\",\n  \"assignee\": \"Violet Flores\",\n  \"deadline\": \"ASAP\",\n  \"dependencies\": [\"blocker for the entire team\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "implement the secrets management solution",
+      "priority": "high",
+      "assignee": "Violet Flores",
+      "deadline": "ASAP",
+      "dependencies": [
+        "blocker for the entire team"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1471
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"social media campaign\",\n  \"priority\": \"high\",\n  \"assignee\": \"Marcus Anderson\",\n  \"deadline\": \"your earliest convenience\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "social media campaign",
+      "priority": "high",
+      "assignee": "Marcus Anderson",
+      "deadline": "your earliest convenience",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1795
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design event booth materials\",\n  \"priority\": \"Normal\",\n  \"assignee\": \"Tom\",\n  \"deadline\": \"soon\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design event booth materials",
+      "priority": "Normal",
+      "assignee": "Tom",
+      "deadline": "soon",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1162
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design error and success state screens\",\n  \"priority\": \"P0\",\n  \"assignee\": \"Vera Murphy\",\n  \"deadline\": \"earliest convenience\",\n  \"dependencies\": [\"brand guidelines update\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design error and success state screens",
+      "priority": "P0",
+      "assignee": "Vera Murphy",
+      "deadline": "earliest convenience",
+      "dependencies": [
+        "brand guidelines update"
+      ]
+    },
+    "condition": "B",
+    "example_id": 433
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"create the illustration set for the marketing site\",\n  \"priority\": \"high\",\n  \"assignee\": \"Isla\",\n  \"deadline\": \"before code freeze\",\n  \"dependencies\": [\"release\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "create the illustration set for the marketing site",
+      "priority": "high",
+      "assignee": "Isla",
+      "deadline": "before code freeze",
+      "dependencies": [
+        "release"
+      ]
+    },
+    "condition": "B",
+    "example_id": 136
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build the benchmark evaluation suite\",\n  \"priority\": \"critical\",\n  \"assignee\": \"Uma Watson\",\n  \"deadline\": \"2026-03-10\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build the benchmark evaluation suite",
+      "priority": "critical",
+      "assignee": "Uma Watson",
+      "deadline": "2026-03-10",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 549
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Run robustness evaluation on adversarial inputs\",\n  \"priority\": \"High\",\n  \"assignee\": \"Mobile Team\",\n  \"deadline\": \"October 15\",\n  \"dependencies\": [\"Dataset Collection\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Run robustness evaluation on adversarial inputs",
+      "priority": "High",
+      "assignee": "Mobile Team",
+      "deadline": "October 15",
+      "dependencies": [
+        "Dataset Collection"
+      ]
+    },
+    "condition": "B",
+    "example_id": 822
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"implement the propensity scoring model\",\n  \"priority\": \"high\",\n  \"assignee\": null,\n  \"deadline\": \"by next release\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "implement the propensity scoring model",
+      "priority": "high",
+      "assignee": null,
+      "deadline": "by next release",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 647
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"write the discussion section\",\n  \"priority\": \"medium\",\n  \"assignee\": null,\n  \"deadline\": \"ASAP\",\n  \"dependencies\": [\"fit it into the sprint\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "write the discussion section",
+      "priority": "medium",
+      "assignee": null,
+      "deadline": "ASAP",
+      "dependencies": [
+        "fit it into the sprint"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1649
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build the knowledge graph from structured data\",\n  \"priority\": \"Normal\",\n  \"assignee\": \"\",\n  \"deadline\": \"a time to be determined\",\n  \"dependencies\": [\"GPU cluster provisioning\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build the knowledge graph from structured data",
+      "priority": "Normal",
+      "assignee": "",
+      "deadline": "a time to be determined",
+      "dependencies": [
+        "GPU cluster provisioning"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1983
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"design the pricing page layout\",\n  \"priority\": null,\n  \"assignee\": \"Uma\",\n  \"deadline\": \"02/28\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "design the pricing page layout",
+      "priority": null,
+      "assignee": "Uma",
+      "deadline": "02/28",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1684
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.0,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"usability testing for the new navigation\",\n  \"priority\": \"Standard\",\n  \"assignee\": null,\n  \"deadline\": null,\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "usability testing for the new navigation",
+      "priority": "Standard",
+      "assignee": null,
+      "deadline": null,
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 470
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Implement the multi-tenant data isolation layer\",\n  \"priority\": \"High\",\n  \"assignee\": \"Wendy Morgan\",\n  \"deadline\": \"03/31\",\n  \"dependencies\": [\"Submit design doc\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Implement the multi-tenant data isolation layer",
+      "priority": "High",
+      "assignee": "Wendy Morgan",
+      "deadline": "03/31",
+      "dependencies": [
+        "Submit design doc"
+      ]
+    },
+    "condition": "B",
+    "example_id": 115
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Build Capacity Planning Forecast for Q4\",\n        \"priority\": \"High\",\n        \"assignee\": \"QA Team\",\n        \"deadline\": \"June 1\",\n        \"dependencies\": [\"Access Control Audit\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Build Capacity Planning Forecast for Q4",
+      "priority": "High",
+      "assignee": "QA Team",
+      "deadline": "June 1",
+      "dependencies": [
+        "Access Control Audit"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1590
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build the benchmark evaluation suite\",\n  \"priority\": \"high\",\n  \"assignee\": \"Elena\",\n  \"deadline\": \"this week\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build the benchmark evaluation suite",
+      "priority": "high",
+      "assignee": "Elena",
+      "deadline": "this week",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1574
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"set up blue-green deployment for the API gateway\",\n  \"priority\": \"high\",\n  \"assignee\": null,\n  \"deadline\": \"2026-09-25\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "set up blue-green deployment for the API gateway",
+      "priority": "high",
+      "assignee": null,
+      "deadline": "2026-09-25",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1727
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"run the hyperparameter sweep for the new model\",\n  \"priority\": \"regular\",\n  \"assignee\": null,\n  \"deadline\": null,\n  \"dependencies\": [\"dataset collection\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "run the hyperparameter sweep for the new model",
+      "priority": "regular",
+      "assignee": null,
+      "deadline": null,
+      "dependencies": [
+        "dataset collection"
+      ]
+    },
+    "condition": "B",
+    "example_id": 665
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Create Partner Co-Marketing Materials\",\n  \"priority\": \"High\",\n  \"assignee\": \"Sarah\",\n  \"deadline\": \"As Soon As Possible\",\n  \"dependencies\": [\"Showstopper\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Create Partner Co-Marketing Materials",
+      "priority": "High",
+      "assignee": "Sarah",
+      "deadline": "As Soon As Possible",
+      "dependencies": [
+        "Showstopper"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1403
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Implement WebSocket support for live notifications\",\n  \"priority\": \"High\",\n  \"assignee\": \"SRE team\",\n  \"deadline\": \"April 30\",\n  \"dependencies\": [\"Service Mesh Configuration\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Implement WebSocket support for live notifications",
+      "priority": "High",
+      "assignee": "SRE team",
+      "deadline": "April 30",
+      "dependencies": [
+        "Service Mesh Configuration"
+      ]
+    },
+    "condition": "B",
+    "example_id": 450
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Write blog post for product launch\",\n        \"priority\": \"High\",\n        \"assignee\": \"Nora Green\",\n        \"deadline\": \"next week\",\n        \"dependencies\": [\"email template redesign\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Write blog post for product launch",
+      "priority": "High",
+      "assignee": "Nora Green",
+      "deadline": "next week",
+      "dependencies": [
+        "email template redesign"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1141
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Set up data lake partitioning strategy\",\n        \"priority\": \"High\",\n        \"assignee\": null,\n        \"deadline\": \"Soon\",\n        \"dependencies\": [\n            \"Data warehouse migration completed\"\n        ]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Set up data lake partitioning strategy",
+      "priority": "High",
+      "assignee": null,
+      "deadline": "Soon",
+      "dependencies": [
+        "Data warehouse migration completed"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1410
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Run cross-validation experiments\",\n  \"priority\": \"High\",\n  \"assignee\": \"Yolanda\",\n  \"deadline\": \"ASAP\",\n  \"dependencies\": [\"Compute allocation\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Run cross-validation experiments",
+      "priority": "High",
+      "assignee": "Yolanda",
+      "deadline": "ASAP",
+      "dependencies": [
+        "Compute allocation"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1311
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Design the email notification templates\",\n        \"priority\": \"High\",\n        \"assignee\": \"Kira\",\n        \"deadline\": \"as soon as possible\",\n        \"dependencies\": []\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Design the email notification templates",
+      "priority": "High",
+      "assignee": "Kira",
+      "deadline": "as soon as possible",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 553
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build the spacing and grid system documentation\",\n  \"priority\": \"normal\",\n  \"assignee\": \"Zoe\",\n  \"deadline\": \"soon\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build the spacing and grid system documentation",
+      "priority": "normal",
+      "assignee": "Zoe",
+      "deadline": "soon",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 778
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"set up experiment tracking with MLflow\",\n  \"priority\": null,\n  \"assignee\": \"Ivan\",\n  \"deadline\": \"March 1\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "set up experiment tracking with MLflow",
+      "priority": null,
+      "assignee": "Ivan",
+      "deadline": "March 1",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 947
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"API Key Management System\",\n  \"priority\": \"High\",\n  \"assignee\": \"Ximena Howard\",\n  \"deadline\": \"Your earliest convenience\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "API Key Management System",
+      "priority": "High",
+      "assignee": "Ximena Howard",
+      "deadline": "Your earliest convenience",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 335
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Plan the content calendar for next quarter\",\n  \"priority\": \"High\",\n  \"assignee\": \"Tyler\",\n  \"deadline\": \"Friday\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Plan the content calendar for next quarter",
+      "priority": "High",
+      "assignee": "Tyler",
+      "deadline": "Friday",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1995
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"plan the content calendar\",\n  \"priority\": \"low\",\n  \"assignee\": null,\n  \"deadline\": \"end of the month\",\n  \"dependencies\": null\n}\n```",
+    "parsed_predicted": {
+      "task_name": "plan the content calendar",
+      "priority": "low",
+      "assignee": null,
+      "deadline": "end of the month",
+      "dependencies": null
+    },
+    "condition": "B",
+    "example_id": 1494
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"create the social media campaign for Q3\",\n  \"priority\": \"high\",\n  \"assignee\": \"Owen\",\n  \"deadline\": \"by end of sprint\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "create the social media campaign for Q3",
+      "priority": "high",
+      "assignee": "Owen",
+      "deadline": "by end of sprint",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1094
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"write the related work section\",\n  \"priority\": \"high\",\n  \"assignee\": null,\n  \"deadline\": \"at your earliest convenience\",\n  \"dependencies\": [\"ethics review\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "write the related work section",
+      "priority": "high",
+      "assignee": null,
+      "deadline": "at your earliest convenience",
+      "dependencies": [
+        "ethics review"
+      ]
+    },
+    "condition": "B",
+    "example_id": 351
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Implement the asset management tracking system\",\n  \"priority\": \"High\",\n  \"assignee\": \"Product Team\",\n  \"deadline\": \"Before Code Freeze\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Implement the asset management tracking system",
+      "priority": "High",
+      "assignee": "Product Team",
+      "deadline": "Before Code Freeze",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1301
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 0.8,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Implement the asset management tracking system\",\n  \"priority\": \"Standard\",\n  \"assignee\": \"Wes Howard\",\n  \"deadline\": \"before code freeze\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Implement the asset management tracking system",
+      "priority": "Standard",
+      "assignee": "Wes Howard",
+      "deadline": "before code freeze"
+    },
+    "condition": "B",
+    "example_id": 1248
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"design the contextual help system\",\n  \"priority\": \"regular\",\n  \"assignee\": \"Wes Wood\",\n  \"deadline\": \"January 31\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "design the contextual help system",
+      "priority": "regular",
+      "assignee": "Wes Wood",
+      "deadline": "January 31",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 147
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"run the robustness evaluation on adversarial inputs\",\n  \"priority\": \"standard\",\n  \"assignee\": \"SRE team\",\n  \"deadline\": \"next Wednesday\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "run the robustness evaluation on adversarial inputs",
+      "priority": "standard",
+      "assignee": "SRE team",
+      "deadline": "next Wednesday",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1328
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Quarterly Data Quality Audit\",\n  \"priority\": \"High\",\n  \"assignee\": \"QA Team\",\n  \"deadline\": \"\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Quarterly Data Quality Audit",
+      "priority": "High",
+      "assignee": "QA Team",
+      "deadline": "",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 1400
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design the multi-step form pattern for the admin panel\",\n  \"priority\": \"High\",\n  \"assignee\": \"Hassan Nguyen\",\n  \"deadline\": \"September 30\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design the multi-step form pattern for the admin panel",
+      "priority": "High",
+      "assignee": "Hassan Nguyen",
+      "deadline": "September 30",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1438
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Update Component Library\",\n  \"priority\": \"Standard\",\n  \"assignee\": \"Dan\",\n  \"deadline\": \"end of sprint\",\n  \"dependencies\": [\"Submit Design Doc\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Update Component Library",
+      "priority": "Standard",
+      "assignee": "Dan",
+      "deadline": "end of sprint",
+      "dependencies": [
+        "Submit Design Doc"
+      ]
+    },
+    "condition": "B",
+    "example_id": 547
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"migrate the CI/CD pipeline to GitHub Actions\",\n  \"priority\": \"high\",\n  \"assignee\": null,\n  \"deadline\": \"March 15\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "migrate the CI/CD pipeline to GitHub Actions",
+      "priority": "high",
+      "assignee": null,
+      "deadline": "March 15",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1373
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"refactor the search indexing pipeline\",\n  \"priority\": \"Standard\",\n  \"assignee\": null,\n  \"deadline\": \"sometime this quarter\",\n  \"dependencies\": [\"microservice migration\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "refactor the search indexing pipeline",
+      "priority": "Standard",
+      "assignee": null,
+      "deadline": "sometime this quarter",
+      "dependencies": [
+        "microservice migration"
+      ]
+    },
+    "condition": "B",
+    "example_id": 430
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up the new ticketing system for internal support\",\n  \"priority\": \"High\",\n  \"assignee\": \"Xena James\",\n  \"deadline\": \"next week\",\n  \"dependencies\": [\"release\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up the new ticketing system for internal support",
+      "priority": "High",
+      "assignee": "Xena James",
+      "deadline": "next week",
+      "dependencies": [
+        "release"
+      ]
+    },
+    "condition": "B",
+    "example_id": 728
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Create the paid search campaign for the new feature\",\n  \"priority\": \"High\",\n  \"assignee\": \"frontend team\",\n  \"deadline\": \"August 31\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Create the paid search campaign for the new feature",
+      "priority": "High",
+      "assignee": "frontend team",
+      "deadline": "August 31",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 759
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Create product demo video script\",\n  \"priority\": \"Medium\",\n  \"assignee\": \"\",\n  \"deadline\": \"by end of sprint\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Create product demo video script",
+      "priority": "Medium",
+      "assignee": "",
+      "deadline": "by end of sprint",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 334
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up the new VPN for the remote team\",\n  \"priority\": \"Medium\",\n  \"assignee\": \"Priya Scott\",\n  \"deadline\": \"by the end of Q2\",\n  \"dependencies\": [\"Budget approval\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up the new VPN for the remote team",
+      "priority": "Medium",
+      "assignee": "Priya Scott",
+      "deadline": "by the end of Q2",
+      "dependencies": [
+        "Budget approval"
+      ]
+    },
+    "condition": "B",
+    "example_id": 748
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"optimize the image upload pipeline\",\n  \"priority\": \"high\",\n  \"assignee\": null,\n  \"deadline\": \"Thursday EOD\",\n  \"dependencies\": [\"service mesh configuration completion\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "optimize the image upload pipeline",
+      "priority": "high",
+      "assignee": null,
+      "deadline": "Thursday EOD",
+      "dependencies": [
+        "service mesh configuration completion"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1709
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"conduct expert interviews\",\n        \"priority\": \"Medium\",\n        \"assignee\": \"Ivan Parker\",\n        \"deadline\": \"December 31\",\n        \"dependencies\": [\"data sharing agreement\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "conduct expert interviews",
+      "priority": "Medium",
+      "assignee": "Ivan Parker",
+      "deadline": "December 31",
+      "dependencies": [
+        "data sharing agreement"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1302
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design retargeting ad creatives\",\n  \"priority\": \"High\",\n  \"assignee\": \"Anya Nakamura\",\n  \"deadline\": \"May 20\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design retargeting ad creatives",
+      "priority": "High",
+      "assignee": "Anya Nakamura",
+      "deadline": "May 20",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 929
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Design the notification center UI\",\n        \"priority\": \"Nice to have\",\n        \"assignee\": null,\n        \"deadline\": null,\n        \"dependencies\": [\"Icon Set Refresh\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Design the notification center UI",
+      "priority": "Nice to have",
+      "assignee": null,
+      "deadline": null,
+      "dependencies": [
+        "Icon Set Refresh"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1955
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Add retry logic to the email sending service\",\n  \"priority\": \"Medium\",\n  \"assignee\": \"Quinn Hill\",\n  \"deadline\": \"next Monday\",\n  \"dependencies\": null\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Add retry logic to the email sending service",
+      "priority": "Medium",
+      "assignee": "Quinn Hill",
+      "deadline": "next Monday",
+      "dependencies": null
+    },
+    "condition": "B",
+    "example_id": 1948
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build the real-time collaboration backend\",\n  \"priority\": \"Normal\",\n  \"assignee\": \"Nina\",\n  \"deadline\": \"May 1\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build the real-time collaboration backend",
+      "priority": "Normal",
+      "assignee": "Nina",
+      "deadline": "May 1",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 207
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"run the robustness evaluation on adversarial inputs\",\n  \"priority\": \"important\",\n  \"assignee\": \"Wendy\",\n  \"deadline\": \"January 15\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "run the robustness evaluation on adversarial inputs",
+      "priority": "important",
+      "assignee": "Wendy",
+      "deadline": "January 15",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1775
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Update the disaster recovery runbook\",\n  \"priority\": \"Medium\",\n  \"assignee\": \"Hassan Stewart\",\n  \"deadline\": \"10/31\",\n  \"dependencies\": [\"Disaster Recovery Plan\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Update the disaster recovery runbook",
+      "priority": "Medium",
+      "assignee": "Hassan Stewart",
+      "deadline": "10/31",
+      "dependencies": [
+        "Disaster Recovery Plan"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1979
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Design event booth materials\",\n        \"priority\": \"High\",\n        \"assignee\": \"Data Team\",\n        \"deadline\": \"August 5\",\n        \"dependencies\": [\"No specific dependencies mentioned\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Design event booth materials",
+      "priority": "High",
+      "assignee": "Data Team",
+      "deadline": "August 5",
+      "dependencies": [
+        "No specific dependencies mentioned"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1752
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"WebSocket support for live notifications\",\n  \"priority\": \"high\",\n  \"assignee\": \"Anya Adams\",\n  \"deadline\": \"end of week\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "WebSocket support for live notifications",
+      "priority": "high",
+      "assignee": "Anya Adams",
+      "deadline": "end of week",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 164
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"create the incident response playbook for security breaches\",\n  \"priority\": \"regular\",\n  \"assignee\": \"Ivan Murphy\",\n  \"deadline\": \"09/15\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "create the incident response playbook for security breaches",
+      "priority": "regular",
+      "assignee": "Ivan Murphy",
+      "deadline": "09/15",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 593
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build the ROI calculator\",\n  \"priority\": \"High\",\n  \"assignee\": \"Nora\",\n  \"deadline\": \"Before the all-hands\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build the ROI calculator",
+      "priority": "High",
+      "assignee": "Nora",
+      "deadline": "Before the all-hands",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1584
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"train the customer churn prediction model\",\n  \"priority\": \"time-critical\",\n  \"assignee\": \"Bob\",\n  \"deadline\": \"next release\",\n  \"dependencies\": [\"embedding pipeline\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "train the customer churn prediction model",
+      "priority": "time-critical",
+      "assignee": "Bob",
+      "deadline": "next release",
+      "dependencies": [
+        "embedding pipeline"
+      ]
+    },
+    "condition": "B",
+    "example_id": 467
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"run the ablation study on the attention mechanism\",\n  \"priority\": \"high\",\n  \"assignee\": \"Yuki Cooper\",\n  \"deadline\": \"04/15\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "run the ablation study on the attention mechanism",
+      "priority": "high",
+      "assignee": "Yuki Cooper",
+      "deadline": "04/15",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1355
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Renewal Negotiation\",\n  \"priority\": \"Standard\",\n  \"assignee\": \"Will\",\n  \"deadline\": \"end of Q4\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Renewal Negotiation",
+      "priority": "Standard",
+      "assignee": "Will",
+      "deadline": "end of Q4",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 94
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Analyze conversion funnel for signup flow\",\n  \"priority\": \"High\",\n  \"assignee\": \"Stella Ward\",\n  \"deadline\": \"End of Q4\",\n  \"dependencies\": [\"Competitor analysis\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Analyze conversion funnel for signup flow",
+      "priority": "High",
+      "assignee": "Stella Ward",
+      "deadline": "End of Q4",
+      "dependencies": [
+        "Competitor analysis"
+      ]
+    },
+    "condition": "B",
+    "example_id": 143
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"run the hyperparameter sweep for the new model\",\n  \"priority\": \"regular\",\n  \"assignee\": null,\n  \"deadline\": null,\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "run the hyperparameter sweep for the new model",
+      "priority": "regular",
+      "assignee": null,
+      "deadline": null,
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1443
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up the annotation platform for the labeling task\",\n  \"priority\": \"High\",\n  \"assignee\": \"Frank\",\n  \"deadline\": \"Next release\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up the annotation platform for the labeling task",
+      "priority": "High",
+      "assignee": "Frank",
+      "deadline": "Next release",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 394
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build the embeddings search service\",\n  \"priority\": \"high\",\n  \"assignee\": null,\n  \"deadline\": \"before the all-hands\",\n  \"dependencies\": [\"data governance review\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build the embeddings search service",
+      "priority": "high",
+      "assignee": null,
+      "deadline": "before the all-hands",
+      "dependencies": [
+        "data governance review"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1183
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up the office network infrastructure for the new floor\",\n  \"priority\": \"High\",\n  \"assignee\": \"Sam\",\n  \"deadline\": \"\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up the office network infrastructure for the new floor",
+      "priority": "High",
+      "assignee": "Sam",
+      "deadline": "",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 741
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up the marketing attribution model\",\n  \"priority\": \"High\",\n  \"assignee\": \"Sarah\",\n  \"deadline\": \"January 15\",\n  \"dependencies\": [\"Ad creative approval\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up the marketing attribution model",
+      "priority": "High",
+      "assignee": "Sarah",
+      "deadline": "January 15",
+      "dependencies": [
+        "Ad creative approval"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1765
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n[\n  {\n    \"task_name\": \"Migrate from REST to GraphQL for the mobile client\",\n    \"priority\": \"High\",\n    \"assignee\": \"Clara\",\n    \"deadline\": \"sometime this quarter\",\n    \"dependencies\": [\n      \"Load Balancer Configuration\"\n    ]\n  }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Migrate from REST to GraphQL for the mobile client",
+      "priority": "High",
+      "assignee": "Clara",
+      "deadline": "sometime this quarter",
+      "dependencies": [
+        "Load Balancer Configuration"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1814
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build the knowledge graph\",\n  \"priority\": \"P0\",\n  \"assignee\": \"Zara\",\n  \"deadline\": \"April 30\",\n  \"dependencies\": [\"Feature Engineering Pipeline\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build the knowledge graph",
+      "priority": "P0",
+      "assignee": "Zara",
+      "deadline": "April 30",
+      "dependencies": [
+        "Feature Engineering Pipeline"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1267
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"perform the quarterly access control review\",\n  \"priority\": \"stretch goal\",\n  \"assignee\": null,\n  \"deadline\": \"March 1\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "perform the quarterly access control review",
+      "priority": "stretch goal",
+      "assignee": null,
+      "deadline": "March 1",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1288
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Write SEO-optimized feature comparison page\",\n        \"priority\": \"High\",\n        \"assignee\": \"Ben Bell\",\n        \"deadline\": \"March 15\",\n        \"dependencies\": [\"Email template redesign\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Write SEO-optimized feature comparison page",
+      "priority": "High",
+      "assignee": "Ben Bell",
+      "deadline": "March 15",
+      "dependencies": [
+        "Email template redesign"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1699
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"write the abstract for the workshop submission\",\n  \"priority\": \"high\",\n  \"assignee\": \"Alice Kelly\",\n  \"deadline\": \"when ready\",\n  \"dependencies\": [\"benchmark suite preparation\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "write the abstract for the workshop submission",
+      "priority": "high",
+      "assignee": "Alice Kelly",
+      "deadline": "when ready",
+      "dependencies": [
+        "benchmark suite preparation"
+      ]
+    },
+    "condition": "B",
+    "example_id": 601
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Cloud Cost Optimization Review\",\n  \"priority\": \"Low\",\n  \"assignee\": \"Hana\",\n  \"deadline\": \"April 15\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Cloud Cost Optimization Review",
+      "priority": "Low",
+      "assignee": "Hana",
+      "deadline": "April 15",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1131
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build the runbook for database failover procedures\",\n  \"priority\": \"low\",\n  \"assignee\": null,\n  \"deadline\": \"this week\",\n  \"dependencies\": null\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build the runbook for database failover procedures",
+      "priority": "low",
+      "assignee": null,
+      "deadline": "this week",
+      "dependencies": null
+    },
+    "condition": "B",
+    "example_id": 162
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Create the SLA dashboard for customer-facing services\",\n  \"priority\": \"Normal\",\n  \"assignee\": \"Max\",\n  \"deadline\": \"ASAP\",\n  \"dependencies\": [\"Budget approval\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Create the SLA dashboard for customer-facing services",
+      "priority": "Normal",
+      "assignee": "Max",
+      "deadline": "ASAP",
+      "dependencies": [
+        "Budget approval"
+      ]
+    },
+    "condition": "B",
+    "example_id": 776
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Build the ROI calculator\",\n        \"priority\": \"High\",\n        \"assignee\": \"Chen Perry\",\n        \"deadline\": \"06/30\",\n        \"dependencies\": [\"Email template redesign\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Build the ROI calculator",
+      "priority": "High",
+      "assignee": "Chen Perry",
+      "deadline": "06/30",
+      "dependencies": [
+        "Email template redesign"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1889
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"design the empty states for all dashboard views\",\n  \"priority\": \"nice to have\",\n  \"assignee\": \"\",\n  \"deadline\": \"two weeks\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "design the empty states for all dashboard views",
+      "priority": "nice to have",
+      "assignee": "",
+      "deadline": "two weeks",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 256
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"implement the multi-tenant data isolation layer\",\n  \"priority\": \"regular\",\n  \"assignee\": null,\n  \"deadline\": \"09/15\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "implement the multi-tenant data isolation layer",
+      "priority": "regular",
+      "assignee": null,
+      "deadline": "09/15",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1099
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build Feature Toggle Management UI\",\n  \"priority\": \"Medium\",\n  \"assignee\": null,\n  \"deadline\": \"End of the month\",\n  \"dependencies\": [\n    {\n      \"name\": \"Test Suite Refactor\",\n      \"status\": \"Not Started\"\n    }\n  ]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build Feature Toggle Management UI",
+      "priority": "Medium",
+      "assignee": null,
+      "deadline": "End of the month",
+      "dependencies": [
+        {
+          "name": "Test Suite Refactor",
+          "status": "Not Started"
+        }
+      ]
+    },
+    "condition": "B",
+    "example_id": 941
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n[\n  {\n    \"task_name\": \"Implement password reset flow\",\n    \"priority\": \"Standard\",\n    \"assignee\": \"Isla Cook\",\n    \"deadline\": \"next week\",\n    \"dependencies\": [\"ci/cd pipeline update\"]\n  }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Implement password reset flow",
+      "priority": "Standard",
+      "assignee": "Isla Cook",
+      "deadline": "next week",
+      "dependencies": [
+        "ci/cd pipeline update"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1495
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Write the related work section for the paper\",\n  \"priority\": \"High\",\n  \"assignee\": \"Reed Brooks\",\n  \"deadline\": \"soon\",\n  \"dependencies\": [\"Data Sharing Agreement\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Write the related work section for the paper",
+      "priority": "High",
+      "assignee": "Reed Brooks",
+      "deadline": "soon",
+      "dependencies": [
+        "Data Sharing Agreement"
+      ]
+    },
+    "condition": "B",
+    "example_id": 89
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build the capacity planning forecast for Q4\",\n  \"priority\": \"high\",\n  \"assignee\": \"Uma Nakamura\",\n  \"deadline\": \"when ready\",\n  \"dependencies\": [\"procurement process\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build the capacity planning forecast for Q4",
+      "priority": "high",
+      "assignee": "Uma Nakamura",
+      "deadline": "when ready",
+      "dependencies": [
+        "procurement process"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1653
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design the multi-step form pattern for the admin panel\",\n  \"priority\": \"High\",\n  \"assignee\": \"Wade\",\n  \"deadline\": \"Time to be determined\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design the multi-step form pattern for the admin panel",
+      "priority": "High",
+      "assignee": "Wade",
+      "deadline": "Time to be determined",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 542
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"design the email notification templates\",\n  \"priority\": \"High\",\n  \"assignee\": \"Sarah White\",\n  \"deadline\": \"February 10\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "design the email notification templates",
+      "priority": "High",
+      "assignee": "Sarah White",
+      "deadline": "February 10",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1237
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build a dashboard for model performance metrics\",\n  \"priority\": \"critical\",\n  \"assignee\": \"Zoe\",\n  \"deadline\": \"ASAP\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build a dashboard for model performance metrics",
+      "priority": "critical",
+      "assignee": "Zoe",
+      "deadline": "ASAP",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 705
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"prepare the IRB amendment for the expanded study\",\n  \"priority\": \"blocker\",\n  \"assignee\": \"\",\n  \"deadline\": \"\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "prepare the IRB amendment for the expanded study",
+      "priority": "blocker",
+      "assignee": "",
+      "deadline": "",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 1736
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Create a health check endpoint for all microservices\",\n  \"priority\": \"Low\",\n  \"assignee\": \"Nate Cook\",\n  \"deadline\": \"sometime this quarter\",\n  \"dependencies\": [\"test suite refactor\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Create a health check endpoint for all microservices",
+      "priority": "Low",
+      "assignee": "Nate Cook",
+      "deadline": "sometime this quarter",
+      "dependencies": [
+        "test suite refactor"
+      ]
+    },
+    "condition": "B",
+    "example_id": 736
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"cloud cost optimization review\",\n  \"priority\": \"Medium\",\n  \"assignee\": \"Chen Smith\",\n  \"deadline\": \"by the end of the month\",\n  \"dependencies\": null\n}\n```",
+    "parsed_predicted": {
+      "task_name": "cloud cost optimization review",
+      "priority": "Medium",
+      "assignee": "Chen Smith",
+      "deadline": "by the end of the month",
+      "dependencies": null
+    },
+    "condition": "B",
+    "example_id": 199
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up log aggregation for production services\",\n  \"priority\": \"Critical\",\n  \"assignee\": \"Frank O'Brien\",\n  \"deadline\": \"\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up log aggregation for production services",
+      "priority": "Critical",
+      "assignee": "Frank O'Brien",
+      "deadline": "",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 779
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design webinar promotion materials\",\n  \"priority\": \"High\",\n  \"assignee\": \"Dan\",\n  \"deadline\": \"end of Q2\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design webinar promotion materials",
+      "priority": "High",
+      "assignee": "Dan",
+      "deadline": "end of Q2",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 190
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build the infrastructure cost dashboard\",\n  \"priority\": \"high\",\n  \"assignee\": null,\n  \"deadline\": \"next week\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build the infrastructure cost dashboard",
+      "priority": "high",
+      "assignee": null,
+      "deadline": "next week",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1991
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build the landing page for the webinar\",\n  \"priority\": \"regular\",\n  \"assignee\": \"Jake Perez\",\n  \"deadline\": \"\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build the landing page for the webinar",
+      "priority": "regular",
+      "assignee": "Jake Perez",
+      "deadline": "",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 690
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design empty states for all dashboard views\",\n  \"priority\": \"High\",\n  \"assignee\": \"Zach\",\n  \"deadline\": \"Not specified yet\",\n  \"dependencies\": [\"Design tokens migration\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design empty states for all dashboard views",
+      "priority": "High",
+      "assignee": "Zach",
+      "deadline": "Not specified yet",
+      "dependencies": [
+        "Design tokens migration"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1564
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up log aggregation for production services\",\n  \"priority\": \"High\",\n  \"assignee\": \"Data Team\",\n  \"deadline\": \"March 31\",\n  \"dependencies\": [\"OAuth Integration\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up log aggregation for production services",
+      "priority": "High",
+      "assignee": "Data Team",
+      "deadline": "March 31",
+      "dependencies": [
+        "OAuth Integration"
+      ]
+    },
+    "condition": "B",
+    "example_id": 441
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"usability testing\",\n  \"priority\": \"high\",\n  \"assignee\": \"Opal Howard\",\n  \"deadline\": \"November 30\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "usability testing",
+      "priority": "high",
+      "assignee": "Opal Howard",
+      "deadline": "November 30",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 319
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"design the data table component\",\n  \"priority\": \"high\",\n  \"assignee\": \"Ximena\",\n  \"deadline\": \"end of week\",\n  \"dependencies\": [\"component library update\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "design the data table component",
+      "priority": "high",
+      "assignee": "Ximena",
+      "deadline": "end of week",
+      "dependencies": [
+        "component library update"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1965
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Implement the change management workflow\",\n  \"priority\": \"High\",\n  \"assignee\": \"Hannah\",\n  \"deadline\": \"Time to be determined\",\n  \"dependencies\": [\"Change Management Process\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Implement the change management workflow",
+      "priority": "High",
+      "assignee": "Hannah",
+      "deadline": "Time to be determined",
+      "dependencies": [
+        "Change Management Process"
+      ]
+    },
+    "condition": "B",
+    "example_id": 697
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Create the product demo video script\",\n  \"priority\": \"High\",\n  \"assignee\": \"Tom\",\n  \"deadline\": \"As Soon As Possible\",\n  \"dependencies\": [\"Brand Refresh\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Create the product demo video script",
+      "priority": "High",
+      "assignee": "Tom",
+      "deadline": "As Soon As Possible",
+      "dependencies": [
+        "Brand Refresh"
+      ]
+    },
+    "condition": "B",
+    "example_id": 866
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Implement the password reset flow\",\n  \"priority\": \"high\",\n  \"assignee\": \"\",\n  \"deadline\": \"July 31\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Implement the password reset flow",
+      "priority": "high",
+      "assignee": "",
+      "deadline": "July 31",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 1430
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"set up distributed tracing across services\",\n  \"priority\": \"low\",\n  \"assignee\": \"Peter Anderson\",\n  \"deadline\": null,\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "set up distributed tracing across services",
+      "priority": "low",
+      "assignee": "Peter Anderson",
+      "deadline": null,
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 327
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Perform the quarterly license audit\",\n  \"priority\": \"High\",\n  \"assignee\": \"Felix\",\n  \"deadline\": \"March 1\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Perform the quarterly license audit",
+      "priority": "High",
+      "assignee": "Felix",
+      "deadline": "March 1",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1651
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Run A/B Test Analysis for New Recommendation Algorithm\",\n  \"priority\": \"Medium\",\n  \"assignee\": \"Ravi\",\n  \"deadline\": \"Time to be determined\",\n  \"dependencies\": [\"GPU Cluster Provisioning\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Run A/B Test Analysis for New Recommendation Algorithm",
+      "priority": "Medium",
+      "assignee": "Ravi",
+      "deadline": "Time to be determined",
+      "dependencies": [
+        "GPU Cluster Provisioning"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1555
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"implement the LLM fine-tuning pipeline\",\n  \"priority\": \"regular\",\n  \"assignee\": null,\n  \"deadline\": null,\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "implement the LLM fine-tuning pipeline",
+      "priority": "regular",
+      "assignee": null,
+      "deadline": null,
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 14
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build a dashboard for model performance metrics\",\n  \"priority\": \"High\",\n  \"assignee\": null,\n  \"deadline\": \"by the end of Q3\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build a dashboard for model performance metrics",
+      "priority": "High",
+      "assignee": null,
+      "deadline": "by the end of Q3",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1781
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 0.4,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build the user behavior clustering model\",\n  \"priority\": \"near the top of the backlog\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build the user behavior clustering model",
+      "priority": "near the top of the backlog"
+    },
+    "condition": "B",
+    "example_id": 1658
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Collect survey responses for the user preference study\",\n  \"priority\": \"High\",\n  \"assignee\": \"Owen\",\n  \"deadline\": \"As soon as possible\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Collect survey responses for the user preference study",
+      "priority": "High",
+      "assignee": "Owen",
+      "deadline": "As soon as possible",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 570
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Implement password reset flow\",\n  \"priority\": \"High\",\n  \"assignee\": \"Kevin Kim\",\n  \"deadline\": \"Within the next three days\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Implement password reset flow",
+      "priority": "High",
+      "assignee": "Kevin Kim",
+      "deadline": "Within the next three days",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1207
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.0,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Create Product Demo Video Script\",\n        \"priority\": \"High\",\n        \"assignee\": null,\n        \"deadline\": \"Not Specified\",\n        \"dependencies\": [\n            \"Email Template Redesign\"\n        ]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Create Product Demo Video Script",
+      "priority": "High",
+      "assignee": null,
+      "deadline": "Not Specified",
+      "dependencies": [
+        "Email Template Redesign"
+      ]
+    },
+    "condition": "B",
+    "example_id": 920
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Plan Product Hunt Launch Strategy\",\n        \"priority\": \"High\",\n        \"assignee\": \"Support Team\",\n        \"deadline\": \"May 12\",\n        \"dependencies\": []\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Plan Product Hunt Launch Strategy",
+      "priority": "High",
+      "assignee": "Support Team",
+      "deadline": "May 12",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 452
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.0,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design Notification Center UI\",\n  \"priority\": \"High\",\n  \"assignee\": null,\n  \"deadline\": \"End of Week\",\n  \"dependencies\": [\"Typography Refresh\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design Notification Center UI",
+      "priority": "High",
+      "assignee": null,
+      "deadline": "End of Week",
+      "dependencies": [
+        "Typography Refresh"
+      ]
+    },
+    "condition": "B",
+    "example_id": 860
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 0.8,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"create the IT procurement workflow\",\n  \"priority\": \"Standard\",\n  \"assignee\": \"Priya\",\n  \"deadline\": \"2026-09-25\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "create the IT procurement workflow",
+      "priority": "Standard",
+      "assignee": "Priya",
+      "deadline": "2026-09-25"
+    },
+    "condition": "B",
+    "example_id": 1987
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"run the hyperparameter sweep for the new model\",\n  \"priority\": \"Low\",\n  \"assignee\": null,\n  \"deadline\": null,\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "run the hyperparameter sweep for the new model",
+      "priority": "Low",
+      "assignee": null,
+      "deadline": null,
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1437
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"cloud cost optimization review\",\n  \"priority\": \"Medium\",\n  \"assignee\": \"Maria\",\n  \"deadline\": \"November 1\",\n  \"dependencies\": [\"access control audit\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "cloud cost optimization review",
+      "priority": "Medium",
+      "assignee": "Maria",
+      "deadline": "November 1",
+      "dependencies": [
+        "access control audit"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1331
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Run the ablation study on the attention mechanism\",\n        \"priority\": \"High\",\n        \"assignee\": \"Fatima James\",\n        \"deadline\": \"2026-03-10\",\n        \"dependencies\": [\"Methodology validation\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Run the ablation study on the attention mechanism",
+      "priority": "High",
+      "assignee": "Fatima James",
+      "deadline": "2026-03-10",
+      "dependencies": [
+        "Methodology validation"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1467
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Quarterly Data Quality Audit\",\n  \"priority\": \"High\",\n  \"assignee\": \"Nora\",\n  \"deadline\": \"Thursday EOD\",\n  \"dependencies\": [\"Labeling Effort\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Quarterly Data Quality Audit",
+      "priority": "High",
+      "assignee": "Nora",
+      "deadline": "Thursday EOD",
+      "dependencies": [
+        "Labeling Effort"
+      ]
+    },
+    "condition": "B",
+    "example_id": 408
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up the marketing attribution model\",\n  \"priority\": \"High\",\n  \"assignee\": \"Tyler Rivera\",\n  \"deadline\": \"End of Q1\",\n  \"dependencies\": [\"Campaign budget approval\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up the marketing attribution model",
+      "priority": "High",
+      "assignee": "Tyler Rivera",
+      "deadline": "End of Q1",
+      "dependencies": [
+        "Campaign budget approval"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1150
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Migrate from REST to GraphQL\",\n  \"priority\": \"High\",\n  \"assignee\": \"Growth Team\",\n  \"deadline\": \"Two Weeks\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Migrate from REST to GraphQL",
+      "priority": "High",
+      "assignee": "Growth Team",
+      "deadline": "Two Weeks",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 55
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Run statistical significance tests\",\n        \"priority\": \"Medium\",\n        \"assignee\": \"Infrastructure Team\",\n        \"deadline\": \"next Monday\",\n        \"dependencies\": [\n            \"Submit design doc\"\n        ]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Run statistical significance tests",
+      "priority": "Medium",
+      "assignee": "Infrastructure Team",
+      "deadline": "next Monday",
+      "dependencies": [
+        "Submit design doc"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1233
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"run the baseline experiments for the new loss function\",\n  \"priority\": \"Low\",\n  \"assignee\": null,\n  \"deadline\": \"May 1\",\n  \"dependencies\": [\"compute allocation\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "run the baseline experiments for the new loss function",
+      "priority": "Low",
+      "assignee": null,
+      "deadline": "May 1",
+      "dependencies": [
+        "compute allocation"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1035
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Write the customer win-back email campaign\",\n  \"priority\": \"High\",\n  \"assignee\": \"Fiona Stewart\",\n  \"deadline\": \"To be determined\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Write the customer win-back email campaign",
+      "priority": "High",
+      "assignee": "Fiona Stewart",
+      "deadline": "To be determined",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 477
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Migrate static assets to a CDN\",\n  \"priority\": \"Standard\",\n  \"assignee\": \"\",\n  \"deadline\": null,\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Migrate static assets to a CDN",
+      "priority": "Standard",
+      "assignee": "",
+      "deadline": null,
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 448
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.8,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"set up the GPU training cluster\",\n  \"priority\": \"urgent\",\n  \"assignee\": \"Isla Watson\",\n  \"deadline\": \"12/31\",\n  \"dependencies\": [\"Production\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "set up the GPU training cluster",
+      "priority": "urgent",
+      "assignee": "Isla Watson",
+      "deadline": "12/31",
+      "dependencies": [
+        "Production"
+      ]
+    },
+    "condition": "B",
+    "example_id": 192
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up end-to-end tests for the checkout flow\",\n  \"priority\": \"High\",\n  \"assignee\": \"Stella\",\n  \"deadline\": \"End of next week\",\n  \"dependencies\": [\"Microservice migration\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up end-to-end tests for the checkout flow",
+      "priority": "High",
+      "assignee": "Stella",
+      "deadline": "End of next week",
+      "dependencies": [
+        "Microservice migration"
+      ]
+    },
+    "condition": "B",
+    "example_id": 62
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Design event booth materials\",\n  \"priority\": \"High\",\n  \"assignee\": \"Rosa\",\n  \"deadline\": \"Next Monday\",\n  \"dependencies\": [\"Brand refresh\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Design event booth materials",
+      "priority": "High",
+      "assignee": "Rosa",
+      "deadline": "Next Monday",
+      "dependencies": [
+        "Brand refresh"
+      ]
+    },
+    "condition": "B",
+    "example_id": 66
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build the Figma Component Library\",\n  \"priority\": \"High\",\n  \"assignee\": \"Not Specified\",\n  \"deadline\": \"End of Q4\",\n  \"dependencies\": [\"User Research Findings\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build the Figma Component Library",
+      "priority": "High",
+      "assignee": "Not Specified",
+      "deadline": "End of Q4",
+      "dependencies": [
+        "User Research Findings"
+      ]
+    },
+    "condition": "B",
+    "example_id": 865
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"build interactive prototypes\",\n  \"priority\": \"Standard\",\n  \"assignee\": \"Wes Smith\",\n  \"deadline\": \"2026-02-01\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "build interactive prototypes",
+      "priority": "Standard",
+      "assignee": "Wes Smith",
+      "deadline": "2026-02-01",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1210
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"real-time anomaly detection pipeline\",\n  \"priority\": \"high\",\n  \"assignee\": \"Bob\",\n  \"deadline\": \"by next Monday\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "real-time anomaly detection pipeline",
+      "priority": "high",
+      "assignee": "Bob",
+      "deadline": "by next Monday",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 179
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Create the incident response playbook\",\n        \"priority\": \"High\",\n        \"assignee\": \"Yuki\",\n        \"deadline\": \"tomorrow\",\n        \"dependencies\": [\"security breaches\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Create the incident response playbook",
+      "priority": "High",
+      "assignee": "Yuki",
+      "deadline": "tomorrow",
+      "dependencies": [
+        "security breaches"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1117
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Build the SSO integration for enterprise clients\",\n  \"priority\": \"Normal\",\n  \"assignee\": \"Uma Chen\",\n  \"deadline\": \"sprint review\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Build the SSO integration for enterprise clients",
+      "priority": "Normal",
+      "assignee": "Uma Chen",
+      "deadline": "sprint review",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1828
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"set up distributed tracing across services\",\n  \"priority\": \"high\",\n  \"assignee\": \"Stella\",\n  \"deadline\": \"as soon as possible\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "set up distributed tracing across services",
+      "priority": "high",
+      "assignee": "Stella",
+      "deadline": "as soon as possible",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1517
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Create Data Quality Monitoring Alerts\",\n  \"priority\": \"High\",\n  \"assignee\": \"Zara Morgan\",\n  \"deadline\": \"by sprint review\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Create Data Quality Monitoring Alerts",
+      "priority": "High",
+      "assignee": "Zara Morgan",
+      "deadline": "by sprint review",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1386
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Annual Industry Report\",\n        \"priority\": \"High\",\n        \"assignee\": \"Tom\",\n        \"deadline\": \"Not Specified\",\n        \"dependencies\": [\n            \"Landing Page Copy\"\n        ]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Annual Industry Report",
+      "priority": "High",
+      "assignee": "Tom",
+      "deadline": "Not Specified",
+      "dependencies": [
+        "Landing Page Copy"
+      ]
+    },
+    "condition": "B",
+    "example_id": 210
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Write the blog post\",\n        \"priority\": \"High\",\n        \"assignee\": \"Peter Cox\",\n        \"deadline\": \"February 28\",\n        \"dependencies\": [\"Design Doc\"]\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Write the blog post",
+      "priority": "High",
+      "assignee": "Peter Cox",
+      "deadline": "February 28",
+      "dependencies": [
+        "Design Doc"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1509
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Add SSL certificate auto-renewal\",\n  \"priority\": \"High\",\n  \"assignee\": \"Ravi\",\n  \"deadline\": \"time to be determined\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Add SSL certificate auto-renewal",
+      "priority": "High",
+      "assignee": "Ravi",
+      "deadline": "time to be determined",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 286
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Deploy the sentiment analysis model to production\",\n  \"priority\": \"High\",\n  \"assignee\": \"Xena\",\n  \"deadline\": \"Before the all-hands\",\n  \"dependencies\": [\"Labeling effort\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Deploy the sentiment analysis model to production",
+      "priority": "High",
+      "assignee": "Xena",
+      "deadline": "Before the all-hands",
+      "dependencies": [
+        "Labeling effort"
+      ]
+    },
+    "condition": "B",
+    "example_id": 458
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.0,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Migrate ETL jobs from Airflow to Dagster\",\n  \"priority\": \"Regular Task\",\n  \"assignee\": \"\",\n  \"deadline\": \"Next Three Days\",\n  \"dependencies\": \"\"\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Migrate ETL jobs from Airflow to Dagster",
+      "priority": "Regular Task",
+      "assignee": "",
+      "deadline": "Next Three Days",
+      "dependencies": ""
+    },
+    "condition": "B",
+    "example_id": 502
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"collect and annotate the training dataset\",\n  \"priority\": \"urgent\",\n  \"assignee\": \"\",\n  \"deadline\": \"2026-05-30\",\n  \"dependencies\": [\n    {\n      \"name\": \"preliminary results analysis\",\n      \"status\": \"completed\"\n    }\n  ]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "collect and annotate the training dataset",
+      "priority": "urgent",
+      "assignee": "",
+      "deadline": "2026-05-30",
+      "dependencies": [
+        {
+          "name": "preliminary results analysis",
+          "status": "completed"
+        }
+      ]
+    },
+    "condition": "B",
+    "example_id": 564
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.2,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Redesign Onboarding Flow\",\n  \"priority\": \"High\",\n  \"assignee\": \"Wendy\",\n  \"deadline\": \"ASAP\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Redesign Onboarding Flow",
+      "priority": "High",
+      "assignee": "Wendy",
+      "deadline": "ASAP",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 1519
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.6,
+    "raw_predicted": "```json\n[\n    {\n        \"task_name\": \"Migrate the ETL jobs from Airflow to Dagster\",\n        \"priority\": \"backlog\",\n        \"assignee\": \"Hana\",\n        \"deadline\": \"July 31\",\n        \"dependencies\": \"ETL job migration\"\n    }\n]\n```",
+    "parsed_predicted": {
+      "task_name": "Migrate the ETL jobs from Airflow to Dagster",
+      "priority": "backlog",
+      "assignee": "Hana",
+      "deadline": "July 31",
+      "dependencies": "ETL job migration"
+    },
+    "condition": "B",
+    "example_id": 52
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Implement the multi-tenant data isolation layer\",\n  \"priority\": \"Critical\",\n  \"assignee\": \"Maria\",\n  \"deadline\": \"End of Q4\",\n  \"dependencies\": []\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Implement the multi-tenant data isolation layer",
+      "priority": "Critical",
+      "assignee": "Maria",
+      "deadline": "End of Q4",
+      "dependencies": []
+    },
+    "condition": "B",
+    "example_id": 229
+  },
+  {
+    "format_valid": 1,
+    "field_completeness": 1.0,
+    "value_correctness": 0.4,
+    "raw_predicted": "```json\n{\n  \"task_name\": \"Set up the new VPN for the remote team\",\n  \"priority\": \"High\",\n  \"assignee\": \"James\",\n  \"deadline\": \"End of sprint\",\n  \"dependencies\": [\"Security review\"]\n}\n```",
+    "parsed_predicted": {
+      "task_name": "Set up the new VPN for the remote team",
+      "priority": "High",
+      "assignee": "James",
+      "deadline": "End of sprint",
+      "dependencies": [
+        "Security review"
+      ]
+    },
+    "condition": "B",
+    "example_id": 1310
+  }
+]
