@@ -57,7 +57,7 @@ TRAINING_ARGS = TrainingArguments(
     gradient_accumulation_steps=8, # effective batch = 2×8 = 16
     learning_rate=2e-4,
     lr_scheduler_type="cosine",    # cosine decay feels more natural than linear
-    warmup_ratio=0.05,             # 5% of steps are warmup
+    warmup_steps=85,             # 5% of steps are warmup
     fp16=True,                     # mixed precision, saves VRAM during training
     logging_steps=10,              # log loss every 10 steps to W&B
     eval_strategy="steps",
@@ -134,7 +134,7 @@ def main():
         args=TRAINING_ARGS,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        processing_class=tokenizer,
+        tokenizer=tokenizer,
         dataset_text_field="text",
     )
 
