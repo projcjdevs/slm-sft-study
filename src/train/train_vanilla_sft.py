@@ -135,6 +135,7 @@ def main():
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
         tokenizer=tokenizer,
+        dataset_text_field="text",
     )
 
     print("\nStarting training...")
